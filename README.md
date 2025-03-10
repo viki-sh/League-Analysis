@@ -349,9 +349,9 @@ Our classification model aims to predict the outcome of a League of Legends matc
 ## Baseline Model 
 To establish a starting point, we trained a baseline Decision Tree model on the following features:
 
-`num_counters_picked` (Quantitative) : A respective team's number of counter picks
-`num_counters_banned` (Quantitative) : A respective team's number of counter bans
-`side` (Nominal) : The side of the map the team played on, Blue or Red 
+- `num_counters_picked` (Quantitative) : A respective team's number of counter picks
+- `num_counters_banned` (Quantitative) : A respective team's number of counter bans
+- `side` (Nominal) : The side of the map the team played on, Blue or Red 
 
 Since our feature set included both quantitative and categorical data, we applied the following transformations:
 
@@ -360,10 +360,10 @@ Since our feature set included both quantitative and categorical data, we applie
 
 These were all implemented into a single ski-kit learn pipeline, and we then trained a Random Forest classifier with the following hyperparameters:
 
-Criterion: entropy
-Max Depth: 2
-Min Samples Split: 2
-Accuracy : 53%
+- Criterion: entropy
+- Max Depth: 2
+- Min Samples Split: 2
+- Accuracy : 53%
 
 However, based on our exploratory data analysis and previous hypothesis testing, pre-game factors alone do not have a strong influence on match outcomes. As a result, our model only achieved 53% accuracy on the test set, which is only slightly better than a random guess (50%).
 
@@ -376,19 +376,19 @@ Our baseline model only considered pre-game factors, which resulted in poor pred
 Our final model is a Random Forest Classifier trained on the following features:
 	
 ### Features from Data 
-`side` (Nominal) : The side of the map the team played on, Blue or Red 
-`golddiffat10` (Quantitative): Difference between the team's total gold and the opponent’s total gold. Measures economic strength, which correlates with better inventory and power spikes.
-`xpdiffat10` (Quantitative): Difference in team XP compared to opponents. Higher XP leads to stronger champions through better abilities and stats.
-`csdiffat10`(Quantitative): Difference in creep score (CS) between teams. CS directly impacts gold income and scaling potential.
-`mean_champ_wr`(Quantitative):  The average win rate of the champions selected by a team. Measures overall champion strength based on historical performance.
-`mean_team_wr`(Quantitative): The average win rate of the players in a team. Helps quantify player skill and historical performance.
+- `side` (Nominal) : The side of the map the team played on, Blue or Red 
+- `golddiffat10` (Quantitative): Difference between the team's total gold and the opponent’s total gold. Measures economic strength, which correlates with better inventory and power spikes.
+- `xpdiffat10` (Quantitative): Difference in team XP compared to opponents. Higher XP leads to stronger champions through better abilities and stats.
+- `csdiffat10`(Quantitative): Difference in creep score (CS) between teams. CS directly impacts gold income and scaling potential.
+- `mean_champ_wr`(Quantitative):  The average win rate of the champions selected by a team. Measures overall champion strength based on historical performance.
+- `mean_team_wr`(Quantitative): The average win rate of the players in a team. Helps quantify player skill and historical performance.
 
 ### Features Engineered 
-`kda_10` (Quantitative): (`killsat10` + `assistsat10`) / `deathsat10`. KDA (Kill/Death/Assist ratio) is a direct measure of player performance; a high KDA signifies strong early-game presence.
-`opp_kda_10` (Quantitative): (`opp_killsat10` + `opp_assistsat10`) / `opp_deathsat10`. The opponent’s KDA provides context on whether our team’s early-game advantage is truly significant.
-`pga_diff` (Quantitative): Measures the difference in Pre-Game Advantage (PGA) between our team and the opponent. A larger PGA difference indicates a stronger team composition.
+- `kda_10` (Quantitative): (`killsat10` + `assistsat10`) / `deathsat10`. KDA (Kill/Death/Assist ratio) is a direct measure of player performance; a high KDA signifies strong early-game presence.
+- `opp_kda_10` (Quantitative): (`opp_killsat10` + `opp_assistsat10`) / `opp_deathsat10`. The opponent’s KDA provides context on whether our team’s early-game advantage is truly significant.
+- `pga_diff` (Quantitative): Measures the difference in Pre-Game Advantage (PGA) between our team and the opponent. A larger PGA difference indicates a stronger team composition.
 
-Note that we omitted the original features `num_counters_picked` and `num_counters_banned`, as `pga_diff` rendered those columns slightly redundant. 
+Note that we omitted the original features `num_counters_picked` and `num_counters_banned`, as - `pga_diff` rendered those columns slightly redundant. 
 
 In addition to one-hot-encoding side, to ensure fair weight distribution across features, we standardized all numerical values using StandardScaler(), which centers the mean at 0 and scales to unit variance.
 
@@ -404,10 +404,10 @@ The features needed of our model is as follows:
 
 These were all implemented into a single ski-kit learn pipeline, and we then trained a Random Forest classifier, finding the hyperparameters using GridSearchCV. 
 
-Criterion: gini
-Max Depth: 10
-Min Samples Split: 22
-Num Estimators : 300
+- Criterion: gini
+- Max Depth: 10
+- Min Samples Split: 22
+- Num Estimators : 300
 
 The model achieves an accuracy of 62%, marking a clear improvement over our baseline but still falling short of being highly reliable. Predicting a match outcome at the 10-minute mark proves challenging, which aligns with our understanding of early-game dynamics. During this phase, lanes remain largely isolated, limiting team interactions and strategic synergy. Additionally, major objectives—such as dragons, Rift Herald, and towers—are rarely contested before 15 minutes, meaning early advantages may not yet translate into definitive outcomes.
 
