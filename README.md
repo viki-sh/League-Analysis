@@ -408,10 +408,9 @@ Max Depth: 10
 Min Samples Split: 22
 Num Estimators : 300
 
-The accuracy for this model is 62%. Better than our baseline, but overall not a "great" model. It appears that it is quite difficult to accurately predict a game result 10 minutes in, which makes sense, since in the first 10 minutes, the lanes dont interact and synergize. There also are few "main" objectives in this time, such as dragons, heralds, and towers typically dont fall until the 15 minute mark. 
+The model achieves an accuracy of 62%, marking a clear improvement over our baseline but still falling short of being highly reliable. Predicting a match outcome at the 10-minute mark proves challenging, which aligns with our understanding of early-game dynamics. During this phase, lanes remain largely isolated, limiting team interactions and strategic synergy. Additionally, major objectives—such as dragons, Rift Herald, and towers—are rarely contested before 15 minutes, meaning early advantages may not yet translate into definitive outcomes.
 
-Lets see how as the game progresses, our model can better predict the outcome. 
-We used the same features as our final model, but instead of kda_10, xpdiff, etc.. We replaced these values with their respective time marks. Their testing accuracies can be shown below: 
+To assess how predictive power evolves as the game progresses, we applied the same feature set but replaced KDA, XP, and gold differences at 10 minutes with their corresponding values at later time marks. The resulting testing accuracies are shown below:
 
 <iframe
   src="models.html"
