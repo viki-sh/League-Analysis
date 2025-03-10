@@ -1,4 +1,7 @@
 # Was it Over Before it Started?
+Was it Over Before it Started? Is a League of Legends statistical analysis that aims to answer whether pre-game factors affect in game results. The project encompasses various stages of analysis, starting from exploratory data analysis to hypothesis testing, creation of baseline models, and concluding with fairness analysis. 
+
+Author : Viki Shi 
 
 # General Introduction 
 Welcome to League of Legends! A video game published and developed by Riot Games, widely considered one of the greatest video games ever made. Furthermore, it is the world’s largest esport, with events drawing hundreds of millions of viewers. This analysis aims to analyze eight years of professional league matches, and answer the question, "Do pre-game choices have an affect on the whether a team wins or not"
