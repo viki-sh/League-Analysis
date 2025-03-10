@@ -524,3 +524,11 @@ The results are as shown:
 ></iframe>
 
 Our p-value is 0.2720, which means that under a significance level of 0.05, we **fail to reject the null hypothesis**. This indicates that our model is likely fair for both the blue and red sides, and any observed difference is likely due to random chance.
+
+# Conclusion 
+
+This study explored whether pre-game factors in League of Legends influence match outcomes, using statistical analysis and machine learning models. Our findings revealed that while drafting strategy plays a role, it does not significantly determine the winner. Instead, early- and mid-game performance metrics—such as gold difference, experience difference, and KDA prove to be stronger predictors of match success.
+
+Our baseline model, relying solely on pre-game factors, achieved only 53% accuracy, highlighting the limited impact of drafting choices. However, incorporating early-game (10-minute) statistics improved accuracy to 62%, and our final mid-game (25-minute) model reached 76% accuracy, demonstrating that as the game progresses, prediction becomes more reliable.
+
+Lastly, thank you for reading! I hope this study provides valuable insights into the complexities of League of Legends and the balance between strategy and execution.
