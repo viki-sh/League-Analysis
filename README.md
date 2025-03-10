@@ -413,7 +413,6 @@ These were all implemented into a single sklearn pipeline, and we then trained a
 - Criterion: entropy
 - Max Depth: 2
 - Min Samples Split: 2
-- Accuracy : 53%
 
 However, based on our exploratory data analysis and previous hypothesis testing, pre-game factors alone do not have a strong influence on match outcomes. As a result, our model only achieved 53% accuracy on the test set, which is only slightly better than a random guess (50%).
 
