@@ -391,6 +391,7 @@ We aim to predict the outcome of a League of Legends match using a binary classi
 
 - 0 represents a loss
 - 1 represents a win
+
 Our goal is to determine whether pre-game metrics and in-game factors influence match outcomes as the game progresses. To improve predictive performance, we explored various features and encodings.
 
 We will use accuracy as the primary evaluation metric for our model, as a good accuracy will indicate that our model is making correct predictions at a high rate.
