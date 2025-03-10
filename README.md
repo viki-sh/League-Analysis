@@ -1,29 +1,55 @@
 # Was it Over Before it Started?
-Was it Over Before it Started? Is a League of Legends statistical analysis that aims to answer whether pre-game factors affect in game results. The project encompasses various stages of analysis, starting from exploratory data analysis to hypothesis testing, creation of baseline models, and concluding with fairness analysis. 
+A Statistical Analysis of Pre-Game Factors in League of Legends
 
-Author : Viki Shi 
+Author: Viki Shi
 
 # General Introduction 
-Welcome to League of Legends! A video game published and developed by Riot Games, widely considered one of the greatest video games ever made. Furthermore, it is the world’s largest esport, with events drawing hundreds of millions of viewers. This analysis aims to analyze eight years of professional league matches, and answer the question, "Do pre-game choices have an affect on the whether a team wins or not"
+Welcome to League of Legends—a video game developed and published by Riot Games, widely regarded as one of the greatest video games ever made. Beyond its popularity as a game, League of Legends is the world’s largest esport, with professional tournaments drawing hundreds of millions of viewers.
 
-In a league of legends game, two teams, consisting of 5 players each compete to destroy the enemys "nexus", a home base. The game is extremely complex, and there are many factors in a game including over 150 possible champions, a "store" to buy items to benefit a players performance, gold, jungle monsters, roles, to state a few. 
+This analysis examines eight years of professional League of Legends matches to explore a central question:
 
-However, for the sake of our analysis, we will be focusing on the Pre-Game. Before a game begins, each player chooses a role, a champion, and a ban. The teams are also randomly assigned a side of the map, Red or Blue.
+***Do pre-game decisions impact match outcomes?***
 
-## What are the roles? 
-There are 5 roles, Top, Middle, Bot, Support ADC, and Jungle. Each role typically has champions best suited for the role, for example a support champion will have a kit consisting of healing, whereas a top laner will have lots of health. There are currenltly 170 champions in League, each with their own abilities, roles, and counters. 
+In League of Legends, two teams of five players compete to destroy the enemy’s Nexus, their home base. With over 150 playable champions, in-game items, a gold economy, jungle monsters, and various team roles, the game is highly complex. However, for the purpose of this analysis, we focus solely on pre-game factors, which include:
 
-## What is a counter? 
-In League of Legends, a "counter" refers to a champion that has a significant advantage over another champion, meaning their abilities and playstyle are particularly effective at negating the enemy champion's strengths and exploiting their weaknesses, essentially making it much harder for the enemy champion to perform well in the matchup. 
+- Role selection
+- Champion selection
+- Champion bans
+- Team side assignment (Red or Blue)
 
-## What is a ban?
-In addition to selecting a role and a repective champion, each player can also ban a champion. This can be effective when wanting to ensure a player doesnt want to play against a particular character.
+By analyzing how these pre-game choices influence match outcomes, we aim to determine whether a game is significantly influenced before it even begins.
 
-## What are the sides? 
-The 'Rift', aka the map a match is played on, is parallel, with three lanes and a mass jungle. The red team plays from the top, and aims to destroy the enemys nexus on the bottom, and vise versa. Typically in the league community, most players prefer to be on the blue side, as playing upwards is easier than playing downward. However, these sides are assignmed at random and there is no in game advantage for either.
+## Roles and Champion Selection
+There are five primary roles in League of Legends:
+- Top – Typically tanky champions with high durability.
+- Jungle – Roaming champions who secure objectives and assist teammates.
+- Mid – Burst damage or utility champions who control the center of the map.
+- Bot (ADC) – Ranged damage dealers who scale into the late game.
+- Support – Champions that provide healing, shielding, or crowd control to assist the ADC.
+There are currently 170 champions in League of Legends, each with unique abilities and playstyles suited for specific roles.
 
-## Introduction of dataset 
-- **Number of Rows:** 86899
+## What is a Counter? 
+A counter is a champion that has a strategic advantage over another champion. Counters can:
+- Exploit an opponent’s weaknesses
+- Reduce an enemy’s effectiveness in lane
+- Provide stronger matchups throughout the game
+For example, a champion with strong crowd control abilities might counter a mobile assassin who relies on quick movements.
+
+## What is a Ban?
+Before the game begins, each player has the opportunity to ban one champion, preventing both teams from selecting that character. Bans are often used to:
+
+- Remove strong meta champions
+- Prevent opponents from selecting favorable matchups
+- Target specific players’ comfort picks
+
+## What Are the Sides?
+League of Legends is played on a symmetrical map called Summoner’s Rift, which has three lanes and a jungle area. Teams are randomly assigned to one of two sides:
+- Blue Side (bottom-left)
+= Red Side (top-right)
+While most players prefer the Blue Side, as playing upward is considered visually easier, there is no inherent  advantage between the two sides—assignments are purely random.
+
+## Dataset Overview 
+This study analyzes 86,899 professional League of Legends matches, extracting key variables to measure the impact of pre-game choices.
 - **Key Columns:**
 - `year`: Records the year a game was played  
 - `gameid`: A unique identifier for each game. Shared by two teams
@@ -56,20 +82,33 @@ Additionally, we scraped the following website https://www.counterstats.net/ to 
 # Data Cleaning and Exploratory Data Analysis
 
 ## Data Cleaning 
-Our dataset comes from Oracle’s Elixir, encompassing thousands of professional-level esports matches from top-tier leagues such as the LCS, LEC, LCK, and LPL. For our analysis, we chose to only use 2017, 2019, 2020, 2021, 2022, 2024, and 2025, as the data from other years only had 3 bans, and we would like to analyze across all 5.
+Our dataset originates from Oracle’s Elixir, a comprehensive source of professional League of Legends esports data, covering thousands of matches from top-tier leagues such as the LCS, LEC, LCK, and LPL.
 
-We dropped columns that referenced the in-process game statistics, such as kills, gold, and game objectives, since we are interested in the pre-game. 
+For this analysis, we selected data from the years 2017, 2019, 2020, 2021, 2022, 2024, and 2025. The excluded years only contained three bans per team, whereas we wanted to analyze games with all five bans consistently across all observations.
 
-Additionally, we dropped all rows that had the same PGA for both teams. This way, we could accurately gauge if having a **higher** PGA increased a teams ability to win their match. 
+### Preprocessing Steps
 
-We added five columns to this dataset : 
+Dropped in-game statistics
+- We removed columns related to in-game performance (e.g., kills, gold, game objectives) since our focus is exclusively on pre-game factors.
 
-- `num_counters_picked` : Referencing our webscraped data containing champions and their top five counters, we observed each opponents picks, and incremented by 1 if any of the teams picks were in the opponents counters. 
-- `num_counters_banned` : Referencing our webscraped data containing champions and their top five counters, we observed each teams picks, and incremented by 1 if any of the teams bans were a counter to a pick. 
-- `PGA` : This amount was obtained by adding `num_counters_picked` and `num_counters_banned`, and is an indicator of how strong the overall pre-game choices are for a team
-- `higher_PGA` : This value was obtained to be able to indicate which team had a stronger pre-game advantage, and was used to see the relationship between winning and having a higher pga than your opponent. 
-- `mean_champ_wr` : Using our cleaned dataframe, we obtained a wr for each champ by calculating the number of winning games a champion was played in, divided by the total number of games the champion was played. Then, each pick's respective win rate was added and divided by 5 to obtain the mean. 
-- `mean_team_wr` : Using our cleaned dataframe, we obtained a wr for each team by calculating the number of winning games a team has, divided by the total number of games the team played. 
+Filtered out rows with equal PGA
+- Matches where both teams had the same Pre-Game Advantage (PGA) were dropped. This ensures we can accurately assess whether a higher PGA correlates with a greater likelihood of winning.
+
+### Newly Added Features
+To enhance our analysis, we created the following five additional columns:
+
+- `num_counters_picked` : Using our web-scraped counter data, we checked each opponent’s champion picks. If a team selected a champion that countered an opponent’s pick, we incremented this value by 1 (up to a maximum of 5).
+- `num_counters_banned` : Similarly, we referenced the counter data to determine if a team’s banned champions countered any of their opponent’s picks. If so, we incremented this value by 1 (up to a maximum of 5).
+- `PGA` : Defined as the sum of num_counters_picked and num_counters_banned. This metric serves as an indicator of how favorable a team's pre-game decisions were.
+- `higher_PGA` : A binary variable indicating whether a team had a higher PGA than their opponent (1 = Yes, 0 = No). This allows us to examine the relationship between PGA superiority and match outcomes.
+- `mean_champ_wr` : Calculated by determining each champion’s overall win rate across all games in the dataset. Then, for each match, we computed the average win rate of all five picked champions.
+- `mean_team_wr` : Derived by calculating each team’s historical win rate
+
+Our added features enhance the analysis by quantifying the impact of pre-game decisions on match outcomes.
+
+- `num_counters_picked` & `num_counters_banned` measure strategic drafting by tracking how many counters a team selects or removes.
+- `PGA` & `higher_PGA` quantify overall pre-game advantage, allowing us to test whether a higher PGA correlates with winning.
+- `mean_champ_wr` & `mean_team_wr` provide historical win rate context, helping assess whether strong past performance influences results.
 
 Our head of our final dataframe is as follows: 
 
@@ -82,8 +121,7 @@ Our head of our final dataframe is as follows:
 |   2017 | 1507-1544 | LPL      | Invictus Gaming     | Blue   | Jayce   | Elise    | Malzahar | Kha'Zix    | Lee Sin | Singed  | Rengar  | LeBlanc    | Varus   | Tahm Kench |                     0 |                     1 |     1 |            0 |        0.49238  |       0.523126 |        1 |
 
 ## Univariate Analysis 
-For our univariate analysis, lets look at the distribution of PGA across all games. Note that 0 means a team did not counter ban nor counter pick, whereas 10 meant they counter picked every single champ. 
-
+To begin our analysis, we examine the distribution of Pre-Game Advantage (PGA) across all games. A PGA of 0 indicates that a team neither counter-picked nor counter-banned, while a PGA of 10 would mean that a team countered every single champion possible.
 
 <iframe
   src="uni.html"
@@ -92,7 +130,7 @@ For our univariate analysis, lets look at the distribution of PGA across all gam
   frameborder="0"
 ></iframe>
 
-There are no values of PGA over 8, because there is randomness to when picking and banning. The process usually goes as follows :  
+Notably, PGA values do not exceed 8, due to the structured drafting process in professional League of Legends. The champion selection and banning process follows this sequence:
 
 - Both teams ban 5 champions each
 
@@ -103,7 +141,7 @@ There are no values of PGA over 8, because there is randomness to when picking a
 - **Blue** team will pick 2 champion
 - **Red** team will pick 1 champion
 
-This process ensures each team has equal likelihood of picking a counter; there isnt a "blue team picks all" and then the red team can counter every champion.  As a result, it is very unlikely to have a PGA of 10, as it would insinuate a team choosing to play against their counter, which is not strategic. 
+This format balances counter-picking opportunities, preventing one team from always picking first and the other from always countering. As a result, reaching a PGA of 10 is extremely rare, as it would require a team to deliberately choose champions that their opponents counter, which is unstrategic. 
 
 <iframe
   src="uni2.html"
@@ -126,7 +164,9 @@ Lets now see the affect on wins.
   frameborder="0"
 ></iframe>
 
-It looks like a teams PGA doesnt necessarily mean its more likely to win. However, note that this only shows wins and losses of pga, not necessarily if a higher pga meant winning against their opponent. Lets see that here :
+At first glance, PGA alone does not appear to strongly correlate with winning. However, this plot only shows general win rates for different PGA values—it does not assess whether having a higher PGA than the opposing team impacts victory rates.
+
+To analyze this, we compare the win rates of teams with a higher PGA than their opponent.
 
 <iframe
   src="bi2.html"
@@ -135,7 +175,7 @@ It looks like a teams PGA doesnt necessarily mean its more likely to win. Howeve
   frameborder="0"
 ></iframe>
 
-This visualization shows a 50/50 split. So, it looks like having a higher PGA doesnt significantly affect your ability to beat your opponent.
+The results reveal a 50/50 split, indicating that having a higher PGA does not significantly increase a team’s chances of winning. 
 
 ## Interesting Aggregates
 To further explore the impact of pre-game factors on match outcomes, we calculated the mean aggregate values of key variables for both winning and losing teams. The results suggest that pre-game factors influence match outcomes.
@@ -343,7 +383,7 @@ Here is a histogram containing the distribution of our test statistics under the
   frameborder="0"
 ></iframe>
 
-Based on the hypothesis test performed, with a p-value of 0.0219, we reject the null hypothesis, as it is less than our significance level of 0.05
+Based on the hypothesis test performed, with a p-value of 0.0219, we reject the null hypothesis, as our significance level of 0.05. Meaning, under our trial, it appears that teams with a higher PGA win significantly more than 50% of the time, indicating that pre-game decisions (picks and bans) could contribute to winning.
 
 # Framing a Prediction Problem 
 
@@ -481,4 +521,4 @@ The results are as shown:
   frameborder="0"
 ></iframe>
 
-Our p-value is 0.2720, which means that under a significance level of 0.05, we **fail to reject the null hypothesis**. This indicates that our model is fair for both the blue and red sides, and any observed difference is likely due to random chance.
+Our p-value is 0.2720, which means that under a significance level of 0.05, we **fail to reject the null hypothesis**. This indicates that our model is likely fair for both the blue and red sides, and any observed difference is likely due to random chance.
