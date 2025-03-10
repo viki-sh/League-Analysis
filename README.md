@@ -418,7 +418,7 @@ However, based on our exploratory data analysis and previous hypothesis testing,
 
 Our current model is not considered good due to its poor performance. A classification accuracy of 53% indicates that our model struggles to differentiate between wins and losses based on the provided pre-game features. This suggests that other in-game factors, such as player kills, deaths, assists, and economic decisions likely have a more significant impact on match outcomes.
 
-Our baseline model only considered pre-game factors, which resulted in poor predictive performance (53% accuracy). However, early to mid game events can significantly influence match outcomes. By incorporating gold, XP, creep score, and KDA metrics at the 10-minute mark, we redefined our classification problem to capture early-game momentum.
+Our baseline model only considered pre-game factors, which resulted in poor predictive performance. However, early to mid game events can significantly influence match outcomes. By incorporating gold, XP, creep score, and KDA metrics at the 10-minute mark, we redefined our classification problem to capture early-game momentum.
 
 Our second model is a Random Forest Classifier trained on the following features:
 	
@@ -473,6 +473,8 @@ The head of our dataset was the following:
 | Blue   |         -1 |        3 |      3       |        0.497727 |       0.606061 |            776 |          943 |           39 |
 | Red    |          1 |        3 |      3       |        0.508189 |       0.397167 |           -776 |         -943 |          -39 |
 | Blue   |         -1 |        2 |      1.33333 |        0.500533 |       0.444444 |            -59 |          690 |           -3 |
+
+Our hyperparameters: 
 
 - Criterion: gini
 - Max Depth: 12
