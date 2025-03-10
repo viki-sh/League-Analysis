@@ -393,6 +393,7 @@ Note that we omitted the original features `num_counters_picked` and `num_counte
 In addition to one-hot-encoding side, to ensure fair weight distribution across features, we standardized all numerical values using StandardScaler(), which centers the mean at 0 and scales to unit variance.
 
 The features needed of our model is as follows: 
+
 | side   |   pga_diff |   kda_10 |   opp_kda_10 |   mean_champ_wr |   mean_team_wr |   golddiffat10 |   xpdiffat10 |   csdiffat10 |
 |:-------|-----------:|---------:|-------------:|----------------:|---------------:|---------------:|-------------:|-------------:|
 | Blue   |         -1 |        0 |            0 |        0.513931 |       0.466667 |             31 |         -139 |            2 |
