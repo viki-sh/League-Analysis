@@ -347,7 +347,13 @@ Based on the hypothesis test performed, with a p-value of 0.0219, we reject the 
 
 # Framing a Prediction Problem 
 
-Our classification model aims to predict the outcome of a League of Legends match using pre-game data. Given that match outcomes are influenced by multiple factors, we explored various features and encodings to improve predictive performance.
+We aim to predict the outcome of a League of Legends match using a binary classification model, where:
+
+- 0 represents a loss
+- 1 represents a win
+Our goal is to determine whether pre-game metrics and in-game factors influence match outcomes as the game progresses. To improve predictive performance, we explored various features and encodings.
+
+We will use accuracy as the primary evaluation metric for our model, as a good accuracy will indicate that our model is making correct predictions at a high rate.
 
 ## Baseline Model 
 To establish a starting point, we trained a baseline Decision Tree model on the following features:
@@ -372,11 +378,9 @@ However, based on our exploratory data analysis and previous hypothesis testing,
 
 Our current model is not considered good due to its poor performance. A classification accuracy of 53% indicates that our model struggles to differentiate between wins and losses based on the provided pre-game features. This suggests that other in-game factors, such as player kills, deaths, assists, and economic decisions likely have a more significant impact on match outcomes.
 
-## Final Model 
+Our baseline model only considered pre-game factors, which resulted in poor predictive performance (53% accuracy). However, early to mid game events can significantly influence match outcomes. By incorporating gold, XP, creep score, and KDA metrics at the 10-minute mark, we redefined our classification problem to capture early-game momentum.
 
-Our baseline model only considered pre-game factors, which resulted in poor predictive performance (53% accuracy). However, early-game events can significantly influence match outcomes. By incorporating gold, XP, creep score, and KDA metrics at the 10-minute mark, we redefined our classification problem to capture early-game momentum.
-
-Our final model is a Random Forest Classifier trained on the following features:
+Our second model is a Random Forest Classifier trained on the following features:
 	
 ### Features from Data 
 - `side` (Nominal) : The side of the map the team played on, Blue or Red 
@@ -395,16 +399,6 @@ Note that we omitted the original features `num_counters_picked` and `num_counte
 
 In addition to one-hot-encoding side, to ensure fair weight distribution across features, we standardized all numerical values using StandardScaler(), which centers the mean at 0 and scales to unit variance.
 
-The features needed of our model is as follows: 
-
-| side   |   pga_diff |   kda_10 |   opp_kda_10 |   mean_champ_wr |   mean_team_wr |   golddiffat10 |   xpdiffat10 |   csdiffat10 |
-|:-------|-----------:|---------:|-------------:|----------------:|---------------:|---------------:|-------------:|-------------:|
-| Blue   |         -1 |        0 |            0 |        0.513931 |       0.466667 |             31 |         -139 |            2 |
-| Red    |          1 |        0 |            0 |        0.502757 |       0.555556 |            -31 |          139 |           -2 |
-| Blue   |         -1 |        0 |            0 |        0.497727 |       0.606061 |            122 |           64 |            6 |
-| Red    |          1 |        0 |            0 |        0.508189 |       0.397167 |           -122 |          -64 |           -6 |
-| Blue   |         -1 |        1 |            1 |        0.500533 |       0.444444 |           -314 |        -1023 |          -27 |
-
 These were all implemented into a single ski-kit learn pipeline, and we then trained a Random Forest classifier, finding the hyperparameters using GridSearchCV. 
 
 - Criterion: gini
@@ -412,9 +406,44 @@ These were all implemented into a single ski-kit learn pipeline, and we then tra
 - Min Samples Split: 22
 - Num Estimators : 300
 
-The model achieves an accuracy of 62%, marking a clear improvement over our baseline but still falling short of being highly reliable. Predicting a match outcome at the 10-minute mark proves challenging, which aligns with our understanding of early-game dynamics. During this phase, lanes remain largely isolated, limiting team interactions and strategic synergy. Additionally, major objectives—such as dragons, Rift Herald, and towers—are rarely contested before 15 minutes, meaning early advantages may not yet translate into definitive outcomes.
+This model achieves an accuracy of 62%, marking a clear improvement over our baseline but still falling short of being highly reliable. Predicting a match outcome at the 10-minute mark proves challenging, which aligns with our understanding of early-game dynamics. During this phase, lanes remain largely isolated, limiting team interactions and strategic synergy. Additionally, major objectives—such as dragons, Rift Herald, and towers—are rarely contested before 15 minutes, meaning early advantages may not yet translate into definitive outcomes.
 
-To assess how predictive power evolves as the game progresses, we applied the same feature set but replaced KDA, XP, and gold differences at 10 minutes with their corresponding values at later time marks. The resulting testing accuracies are shown below:
+## Final Model
+
+To assess how predictive power evolves as the game progresses, we applied the same feature set but replaced 10 minutes with 25. 
+
+- `side` (Nominal) : The side of the map the team played on, Blue or Red 
+- `golddiffat25` (Quantitative): Difference between the team's total gold and the opponent’s total gold. Measures economic strength, which correlates with better inventory and power spikes.
+- `xpdiffat25` (Quantitative): Difference in team XP compared to opponents. Higher XP leads to stronger champions through better abilities and stats.
+- `csdiffat25`(Quantitative): Difference in creep score (CS) between teams. CS directly impacts gold income and scaling potential.
+- `mean_champ_wr`(Quantitative):  The average win rate of the champions selected by a team. Measures overall champion strength based on historical performance.
+- `mean_team_wr`(Quantitative): The average win rate of the players in a team. Helps quantify player skill and historical performance.
+
+### Features Engineered 
+- `kda_25` (Quantitative): (`killsat25` + `assistsat25`) / `deathsat25`. KDA (Kill/Death/Assist ratio) is a direct measure of player performance; a high KDA signifies strong early-game presence.
+- `opp_kda_25` (Quantitative): (`opp_killsat25` + `opp_assistsat25`) / `opp_deathsat25`. The opponent’s KDA provides context on whether our team’s early-game advantage is truly significant.
+- `pga_diff` (Quantitative): Measures the difference in Pre-Game Advantage (PGA) between our team and the opponent. A larger PGA difference indicates a stronger team composition.
+
+The head of our dataset was the following: 
+
+| side   |   pga_diff |   kda_25 |   opp_kda_25 |   mean_champ_wr |   mean_team_wr |   golddiffat25 |   xpdiffat25 |   csdiffat25 |
+|:-------|-----------:|---------:|-------------:|----------------:|---------------:|---------------:|-------------:|-------------:|
+| Blue   |         -1 |        1 |      0       |        0.513931 |       0.466667 |           1560 |         1638 |           52 |
+| Red    |          1 |        0 |      1       |        0.502757 |       0.555556 |          -1560 |        -1638 |          -52 |
+| Blue   |         -1 |        3 |      3       |        0.497727 |       0.606061 |            776 |          943 |           39 |
+| Red    |          1 |        3 |      3       |        0.508189 |       0.397167 |           -776 |         -943 |          -39 |
+| Blue   |         -1 |        2 |      1.33333 |        0.500533 |       0.444444 |            -59 |          690 |           -3 |
+
+- Criterion: gini
+- Max Depth: 12
+- Min Samples Split: 22
+- Num Estimators : 200
+
+Our final model achieves an accuracy of 76%! This demonstrates that as the game progresses, we can predict the winning team with 76% accuracy using only kills, deaths, assists, experience, economy, and pre-game factors.
+
+The accuracy is limited because our model makes predictions at the midway point of the game, without incorporating crucial late-game objectives such as turrets and major monsters (e.g., Baron Nashor or Dragon), which significantly impact the outcome.
+
+Lets visualize how accuracy improves with gametime. 
 
 <iframe
   src="models.html"
@@ -424,3 +453,32 @@ To assess how predictive power evolves as the game progresses, we applied the sa
 ></iframe>
 
 # Fairness Analysis
+The fairness analysis seeks to determine whether our model treats the two sides of the game (Blue and Red) fairly. Specifically, we aim to evaluate whether the model’s precision is roughly the same for both sides or if there is a statistically significant difference.
+
+- Hypothesis
+Null Hypothesis (H₀):
+Our model is fair. Its precision for the Red Side and Blue Side are roughly the same, and any observed difference is due to random chance.
+
+Alternative Hypothesis (H₁):
+Our model is unfair. Its precision for the Red Side is different from the precision for the Blue Side.
+
+- Groups
+Group X: Blue Side
+Group Y: Red Side
+
+- Evaluation Metric
+The evaluation metric is the difference in precision between the two groups: Red and Blue Side
+
+- Significance Level
+The significance level (alpha) is set to 0.05, meaning we will reject the null hypothesis if the p-value is less than 0.05. 
+
+The results are as shown: 
+
+<iframe
+  src="fairnesshyp.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
+Our p-value is 0.2720, which means that under a significance level of 0.05, we **fail to reject the null hypothesis**. This indicates that our model is fair for both the blue and red sides, and any observed difference is likely due to random chance.
