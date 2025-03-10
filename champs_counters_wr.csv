@@ -1,0 +1,851 @@
+Champion,counters champ,champ counters,champ_wr
+darius,"('Yorick', 49)","('Rengar', 61)",0.5208333333333334
+darius,"('Briar', 51)","('Rammus', 60)",0.5208333333333334
+darius,"('Amumu', 51)","('Taliyah', 59)",0.5208333333333334
+darius,"('Wukong', 52)","('Karthus', 59)",0.5208333333333334
+darius,"('Ekko', 52)","('Nidalee', 59)",0.5208333333333334
+nilah,"('Sivir', 46)","('Twitch', 59)",0.5033112582781457
+nilah,"('Xayah', 46)","('Samira', 57)",0.5033112582781457
+nilah,"('Corki', 47)","(""Kai'Sa"", 56)",0.5033112582781457
+nilah,"('Jinx', 49)","('Caitlyn', 56)",0.5033112582781457
+nilah,"('Miss Fortune', 51)","('Ezreal', 56)",0.5033112582781457
+taric,"('Milio', 41)","('Yuumi', 59)",0.46056547619047616
+taric,"('Lulu', 50)","('Nautilus', 57)",0.46056547619047616
+taric,"('Janna', 51)","('Leona', 57)",0.46056547619047616
+taric,"('Lux', 51)","('Blitzcrank', 55)",0.46056547619047616
+taric,"('Braum', 52)","('Thresh', 54)",0.46056547619047616
+jinx,"('Twitch', 49)","('Kalista', 56)",0.49956759873162293
+jinx,"('Tristana', 50)","('Samira', 55)",0.49956759873162293
+jinx,"('Vayne', 50)","(""Kai'Sa"", 55)",0.49956759873162293
+jinx,"('Lucian', 51)","('Aphelios', 54)",0.49956759873162293
+jinx,"(""Kog'Maw"", 51)","('Smolder', 54)",0.49956759873162293
+nami,"('Braum', 48)","('Mel', 56)",0.5196037969459348
+nami,"('Sona', 48)","('Brand', 56)",0.5196037969459348
+nami,"('Taric', 48)","('Swain', 55)",0.5196037969459348
+nami,"('Nautilus', 48)","('Lux', 54)",0.5196037969459348
+nami,"('Neeko', 49)","('Morgana', 53)",0.5196037969459348
+vayne,"(""Kog'Maw"", 49)","('Varus', 55)",0.4753787878787879
+vayne,"('Miss Fortune', 49)","('Ezreal', 55)",0.4753787878787879
+vayne,"('Nilah', 49)","('Ziggs', 55)",0.4753787878787879
+vayne,"('Twitch', 49)","('Kalista', 54)",0.4753787878787879
+vayne,"('Aphelios', 49)","('Jhin', 54)",0.4753787878787879
+nocturne,"('Udyr', 45)","('Rengar', 58)",0.4965205288796103
+nocturne,"('Yorick', 47)","('Elise', 56)",0.4965205288796103
+nocturne,"('Darius', 47)","('Gragas', 56)",0.4965205288796103
+nocturne,"('Jarvan IV', 49)","(""Rek'Sai"", 55)",0.4965205288796103
+nocturne,"('Shyvana', 49)","('Ivern', 55)",0.4965205288796103
+warwick,"('Yorick', 45)","('Nidalee', 59)",0.40425531914893614
+warwick,"('Darius', 47)","('Karthus', 58)",0.40425531914893614
+warwick,"('Gwen', 47)","(""Kha'Zix"", 57)",0.40425531914893614
+warwick,"('Amumu', 47)","('Shyvana', 57)",0.40425531914893614
+warwick,"('Sejuani', 48)","('Skarner', 57)",0.40425531914893614
+braum,"('Zilean', 45)","('Seraphine', 56)",0.48336345274795367
+braum,"('Sona', 46)","('Mel', 55)",0.48336345274795367
+braum,"('Zyra', 48)","('Nautilus', 55)",0.48336345274795367
+braum,"('Swain', 48)","('Elise', 55)",0.48336345274795367
+braum,"('Janna', 48)","('Poppy', 55)",0.48336345274795367
+kayle,"('Malphite', 43)","(""K'Sante"", 61)",0.49514563106796117
+kayle,"('Camille', 46)","('Illaoi', 59)",0.49514563106796117
+kayle,"('Riven', 48)","('Gangplank', 58)",0.49514563106796117
+kayle,"('Nasus', 48)","('Garen', 57)",0.49514563106796117
+kayle,"('Irelia', 48)","('Gwen', 56)",0.49514563106796117
+yorick,"('Irelia', 43)","('Dr. Mundo', 57)",0.4855371900826446
+yorick,"('Urgot', 43)","('Illaoi', 57)",0.4855371900826446
+yorick,"('Sett', 44)","('Kennen', 57)",0.4855371900826446
+yorick,"('Warwick', 44)","('Teemo', 57)",0.4855371900826446
+yorick,"('Trundle', 45)","('Darius', 56)",0.4855371900826446
+janna,"('Sona', 46)","('Mel', 61)",0.5215311004784688
+janna,"('Elise', 47)","('Alistar', 59)",0.5215311004784688
+janna,"('Nami', 48)","('Rakan', 57)",0.5215311004784688
+janna,"('Poppy', 48)","('Swain', 57)",0.5215311004784688
+janna,"('Milio', 48)","('Xerath', 56)",0.5215311004784688
+ornn,"('Kayle', 47)","('Pantheon', 58)",0.48064085447263016
+ornn,"('Fiora', 48)","('Gragas', 58)",0.48064085447263016
+ornn,"('Mordekaiser', 48)","('Dr. Mundo', 58)",0.48064085447263016
+ornn,"('Yone', 48)","('Malphite', 57)",0.48064085447263016
+ornn,"('Ambessa', 48)","('Rumble', 57)",0.48064085447263016
+anivia,"('Ahri', 47)","('LeBlanc', 58)",0.39183673469387753
+anivia,"('Malzahar', 47)","('Hwei', 57)",0.39183673469387753
+anivia,"('Akali', 47)","('Yasuo', 56)",0.39183673469387753
+anivia,"(""Cho'Gath"", 48)","('Zed', 56)",0.39183673469387753
+anivia,"('Aurelion Sol', 50)","('Vladimir', 55)",0.39183673469387753
+cassiopeia,"('Malzahar', 46)","('Lux', 60)",0.5093167701863354
+cassiopeia,"(""Cho'Gath"", 46)","('Yasuo', 56)",0.5093167701863354
+cassiopeia,"('Galio', 49)","('Mel', 55)",0.5093167701863354
+cassiopeia,"('Syndra', 49)","('Akali', 55)",0.5093167701863354
+cassiopeia,"('Vladimir', 49)","('Sylas', 53)",0.5093167701863354
+quinn,"('Malphite', 41)","('Ambessa', 62)",0.4645669291338583
+quinn,"('Sion', 42)","('Volibear', 62)",0.4645669291338583
+quinn,"('Teemo', 47)","('Renekton', 59)",0.4645669291338583
+quinn,"(""Cho'Gath"", 49)","('Jax', 59)",0.4645669291338583
+quinn,"('Gnar', 50)","('Yone', 56)",0.4645669291338583
+urgot,"('Malphite', 47)","('Nasus', 58)",0.5002836074872377
+urgot,"('Vladimir', 48)","('Yorick', 57)",0.5002836074872377
+urgot,"('Olaf', 49)","('Jax', 56)",0.5002836074872377
+urgot,"('Sion', 49)","('Gragas', 55)",0.5002836074872377
+urgot,"('Tryndamere', 49)","('Singed', 55)",0.5002836074872377
+annie,"('Lux', 46)","('Akshan', 62)",0.46236559139784944
+annie,"('Xerath', 46)","('Yone', 59)",0.46236559139784944
+annie,"('Galio', 46)","('Mel', 56)",0.46236559139784944
+annie,"('Syndra', 47)","('Akali', 56)",0.46236559139784944
+annie,"('Orianna', 49)","('Yasuo', 55)",0.46236559139784944
+kennen,"('Yorick', 43)","('Jax', 57)",0.4892047007379065
+kennen,"('Nasus', 44)","('Volibear', 56)",0.4892047007379065
+kennen,"('Mordekaiser', 47)","('Teemo', 56)",0.4892047007379065
+kennen,"('Jayce', 47)","(""K'Sante"", 55)",0.4892047007379065
+kennen,"(""Cho'Gath"", 48)","('Renekton', 54)",0.4892047007379065
+kled,"('Aatrox', 47)","(""Cho'Gath"", 55)",0.5061224489795918
+kled,"('Mordekaiser', 49)","('Darius', 55)",0.5061224489795918
+kled,"('Ambessa', 49)","('Gangplank', 54)",0.5061224489795918
+kled,"('Garen', 50)","('Jax', 52)",0.5061224489795918
+kled,"('Sett', 51)","('Sion', 52)",0.5061224489795918
+kogmaw,"('Sivir', 46)","('Aphelios', 59)",0.44715447154471544
+kogmaw,"('Jinx', 49)","('Draven', 57)",0.44715447154471544
+kogmaw,"('Caitlyn', 50)","('Ezreal', 55)",0.44715447154471544
+kogmaw,"('Miss Fortune', 50)","('Samira', 55)",0.44715447154471544
+kogmaw,"('Twitch', 50)","(""Kai'Sa"", 55)",0.44715447154471544
+olaf,"('Aatrox', 45)","('Jayce', 60)",0.507181328545781
+olaf,"('Sett', 48)","('Shen', 57)",0.507181328545781
+olaf,"('Darius', 49)","(""K'Sante"", 57)",0.507181328545781
+olaf,"('Jax', 50)","('Gangplank', 57)",0.507181328545781
+olaf,"('Malphite', 51)","('Gnar', 57)",0.507181328545781
+sona,"('Rell', 44)","('Leona', 56)",0.5050505050505051
+sona,"('Senna', 47)","('Soraka', 55)",0.5050505050505051
+sona,"('Nautilus', 48)","('Bard', 55)",0.5050505050505051
+sona,"('Pyke', 48)","('Morgana', 54)",0.5050505050505051
+sona,"('Yuumi', 49)","('Rakan', 54)",0.5050505050505051
+lulu,"('Braum', 47)","('Mel', 58)",0.4539393939393939
+lulu,"('Sona', 48)","('Poppy', 55)",0.4539393939393939
+lulu,"('Rell', 48)","('Neeko', 55)",0.4539393939393939
+lulu,"('Nami', 48)","('Shaco', 54)",0.4539393939393939
+lulu,"('Leona', 49)","('Zoe', 54)",0.4539393939393939
+karma,"('Tahm Kench', 46)","('Mel', 60)",0.45097037793667005
+karma,"('Rell', 48)","('Swain', 56)",0.45097037793667005
+karma,"('Taric', 48)","('Morgana', 54)",0.45097037793667005
+karma,"('Nami', 49)","('Neeko', 54)",0.45097037793667005
+karma,"('Braum', 49)","('Zoe', 54)",0.45097037793667005
+thresh,"('Shaco', 45)","('Yuumi', 54)",0.5193206755080622
+thresh,"('Taric', 46)","('Blitzcrank', 54)",0.5193206755080622
+thresh,"('Braum', 47)","('Senna', 54)",0.5193206755080622
+thresh,"('Morgana', 47)","('Pyke', 53)",0.5193206755080622
+thresh,"('Sona', 48)","('Maokai', 53)",0.5193206755080622
+diana,"('Warwick', 45)","('Rammus', 57)",0.4919917864476386
+diana,"('Darius', 46)","('Gragas', 56)",0.4919917864476386
+diana,"('Volibear', 47)","('Nidalee', 56)",0.4919917864476386
+diana,"('Master Yi', 47)","('Karthus', 55)",0.4919917864476386
+diana,"('Shyvana', 47)","(""Kha'Zix"", 55)",0.4919917864476386
+ahri,"('Naafiri', 47)","('Yone', 55)",0.5224237592186566
+ahri,"('Ryze', 47)","('Akali', 55)",0.5224237592186566
+ahri,"('Annie', 48)","(""Vel'Koz"", 55)",0.5224237592186566
+ahri,"('Cassiopeia', 48)","('Anivia', 53)",0.5224237592186566
+ahri,"('LeBlanc', 48)","('Hwei', 53)",0.5224237592186566
+miss-fortune,"('Twitch', 47)","('Samira', 54)",0.4977569331158238
+miss-fortune,"('Jinx', 49)","('Kalista', 53)",0.4977569331158238
+miss-fortune,"('Sivir', 49)","('Varus', 53)",0.4977569331158238
+miss-fortune,"('Nilah', 49)","(""Kai'Sa"", 53)",0.4977569331158238
+miss-fortune,"('Ziggs', 49)","('Lucian', 52)",0.4977569331158238
+chogath,"('Dr. Mundo', 44)","('Tahm Kench', 55)",0.4723523898781631
+chogath,"('Kled', 45)","('Pantheon', 54)",0.4723523898781631
+chogath,"('Yone', 46)","(""K'Sante"", 54)",0.4723523898781631
+chogath,"('Camille', 46)","('Sion', 54)",0.4723523898781631
+chogath,"('Sett', 46)","('Gangplank', 54)",0.4723523898781631
+sett,"('Poppy', 44)","('Yone', 59)",0.49355797819623387
+sett,"('Quinn', 45)","('Heimerdinger', 57)",0.49355797819623387
+sett,"('Kayle', 46)","('Yorick', 56)",0.49355797819623387
+sett,"('Nasus', 46)","('Ambessa', 56)",0.49355797819623387
+sett,"('Warwick', 46)","('Fiora', 54)",0.49355797819623387
+ekko,"('Hecarim', 47)","('Zyra', 57)",0.49907235621521334
+ekko,"('Wukong', 47)","('Pantheon', 56)",0.49907235621521334
+ekko,"('Rengar', 47)","('Zed', 55)",0.49907235621521334
+ekko,"('Diana', 47)","(""Bel'Veth"", 54)",0.49907235621521334
+ekko,"('Fiddlesticks', 47)","('Volibear', 53)",0.49907235621521334
+malphite,"('Dr. Mundo', 42)","('Quinn', 59)",0.4703448275862069
+malphite,"('Ornn', 43)","('Tryndamere', 58)",0.4703448275862069
+malphite,"('Sion', 44)","('Gnar', 58)",0.4703448275862069
+malphite,"('Singed', 45)","('Trundle', 58)",0.4703448275862069
+malphite,"('Mordekaiser', 47)","('Illaoi', 57)",0.4703448275862069
+malzahar,"('Xerath', 46)","('Vladimir', 60)",0.5653061224489796
+malzahar,"('Taliyah', 46)","('Mel', 56)",0.5653061224489796
+malzahar,"('Galio', 46)","('LeBlanc', 56)",0.5653061224489796
+malzahar,"(""Cho'Gath"", 47)","('Zoe', 56)",0.5653061224489796
+malzahar,"('Syndra', 48)","('Sylas', 56)",0.5653061224489796
+mordekaiser,"('Warwick', 43)","('Illaoi', 57)",0.49952380952380954
+mordekaiser,"('Singed', 45)","('Renekton', 57)",0.49952380952380954
+mordekaiser,"('Olaf', 46)","('Rumble', 55)",0.49952380952380954
+mordekaiser,"('Riven', 46)","('Shen', 55)",0.49952380952380954
+mordekaiser,"('Urgot', 47)","('Poppy', 54)",0.49952380952380954
+xerath,"(""Cho'Gath"", 43)","('Lissandra', 57)",0.41435185185185186
+xerath,"('Ekko', 44)","('Mel', 57)",0.41435185185185186
+xerath,"('Akali', 45)","('Hwei', 56)",0.41435185185185186
+xerath,"('Diana', 46)","('Azir', 56)",0.41435185185185186
+xerath,"('Irelia', 46)","('Zed', 55)",0.41435185185185186
+galio,"('Anivia', 46)","('Fizz', 56)",0.5029900332225914
+galio,"('Vladimir', 46)","('Katarina', 55)",0.5029900332225914
+galio,"('Swain', 47)","('Qiyana', 55)",0.5029900332225914
+galio,"('Aurelion Sol', 47)","('Mel', 55)",0.5029900332225914
+galio,"(""Cho'Gath"", 48)","('Malzahar', 54)",0.5029900332225914
+jarvan-iv,"('Master Yi', 42)","('Skarner', 58)",0.49557522123893805
+jarvan-iv,"('Shyvana', 47)","('Lillia', 58)",0.49557522123893805
+jarvan-iv,"('Darius', 47)","('Evelynn', 56)",0.49557522123893805
+jarvan-iv,"('Ekko', 47)","('Hecarim', 55)",0.49557522123893805
+jarvan-iv,"('Volibear', 48)","('Shaco', 55)",0.49557522123893805
+master-yi,"('Warwick', 45)","('Jarvan IV', 58)",0.19047619047619047
+master-yi,"('Wukong', 47)","('Shyvana', 58)",0.19047619047619047
+master-yi,"('Shaco', 47)","('Karthus', 58)",0.19047619047619047
+master-yi,"('Ivern', 47)","('Skarner', 56)",0.19047619047619047
+master-yi,"('Pantheon', 47)","('Gwen', 56)",0.19047619047619047
+milio,"('Braum', 47)","('Mel', 61)",0.45493562231759654
+milio,"('Nami', 47)","('Taric', 59)",0.45493562231759654
+milio,"('Thresh', 48)","('Swain', 59)",0.45493562231759654
+milio,"('Renata Glasc', 49)","('Poppy', 57)",0.45493562231759654
+milio,"('Tahm Kench', 49)","('Pantheon', 55)",0.45493562231759654
+wukong,"('Amumu', 45)","('Zed', 59)",0.5288206295032234
+wukong,"('Shaco', 46)","('Sejuani', 56)",0.5288206295032234
+wukong,"('Warwick', 46)","('Kindred', 55)",0.5288206295032234
+wukong,"('Zyra', 47)","('Rengar', 55)",0.5288206295032234
+wukong,"('Briar', 47)","('Elise', 55)",0.5288206295032234
+amumu,"('Yorick', 43)","('Nidalee', 63)",0.4841075794621027
+amumu,"('Nocturne', 46)","('Gragas', 58)",0.4841075794621027
+amumu,"('Xin Zhao', 48)","('Kindred', 56)",0.4841075794621027
+amumu,"('Gwen', 48)","('Shyvana', 55)",0.4841075794621027
+amumu,"('Lillia', 49)","('Talon', 55)",0.4841075794621027
+poppy,"('Milio', 43)","('Mel', 59)",0.510091235830799
+poppy,"('Lulu', 45)","('Xerath', 57)",0.510091235830799
+poppy,"('Braum', 45)","('Blitzcrank', 55)",0.510091235830799
+poppy,"('Soraka', 46)","('Rakan', 54)",0.510091235830799
+poppy,"('Senna', 46)","('Lux', 53)",0.510091235830799
+rell,"('Neeko', 41)","('Nautilus', 56)",0.5218855218855218
+rell,"('Swain', 45)","('Sona', 56)",0.5218855218855218
+rell,"('Brand', 45)","('Yuumi', 56)",0.5218855218855218
+rell,"('Janna', 46)","('Mel', 55)",0.5218855218855218
+rell,"(""Vel'Koz"", 47)","('Pyke', 55)",0.5218855218855218
+sivir,"('Tristana', 47)","('Xayah', 56)",0.49155773420479304
+sivir,"('Jinx', 47)","('Nilah', 54)",0.49155773420479304
+sivir,"('Twitch', 48)","('Smolder', 54)",0.49155773420479304
+sivir,"('Jhin', 48)","('Samira', 54)",0.49155773420479304
+sivir,"('Vayne', 48)","('Ezreal', 54)",0.49155773420479304
+soraka,"('Sona', 45)","('Tahm Kench', 61)",0.44274809160305345
+soraka,"('Yuumi', 47)","('Mel', 59)",0.44274809160305345
+soraka,"('Karma', 48)","('Brand', 56)",0.44274809160305345
+soraka,"('Bard', 48)","('Alistar', 55)",0.44274809160305345
+soraka,"('Maokai', 48)","('Pantheon', 55)",0.44274809160305345
+teemo,"('Ryze', 43)","('Tryndamere', 58)",0.3333333333333333
+teemo,"('Yorick', 43)","('Renekton', 57)",0.3333333333333333
+teemo,"('Pantheon', 44)","('Ambessa', 57)",0.3333333333333333
+teemo,"('Kennen', 44)","('Volibear', 57)",0.3333333333333333
+teemo,"('Sion', 44)","('Camille', 57)",0.3333333333333333
+veigar,"('Anivia', 47)","('Aurora', 57)",0.45413363533408835
+veigar,"('Lux', 47)","('Ryze', 57)",0.45413363533408835
+veigar,"(""Cho'Gath"", 48)","('Lissandra', 56)",0.45413363533408835
+veigar,"('Diana', 48)","('Azir', 56)",0.45413363533408835
+veigar,"('Fizz', 48)","('Akali', 55)",0.45413363533408835
+briar,"('Kayn', 46)","('Nidalee', 60)",0.3333333333333333
+briar,"('Nocturne', 46)","('Udyr', 57)",0.3333333333333333
+briar,"('Rammus', 47)","('Shaco', 57)",0.3333333333333333
+briar,"('Graves', 47)","('Hecarim', 56)",0.3333333333333333
+briar,"('Fiddlesticks', 47)","('Zac', 55)",0.3333333333333333
+camille,"('Teemo', 43)","('Singed', 56)",0.5358336967582498
+camille,"('Warwick', 45)","('Garen', 56)",0.5358336967582498
+camille,"('Shen', 46)","('Irelia', 55)",0.5358336967582498
+camille,"('Darius', 46)","('Gnar', 55)",0.5358336967582498
+camille,"('Renekton', 46)","('Ambessa', 55)",0.5358336967582498
+fiddlesticks,"('Darius', 46)","('Rengar', 59)",0.4966442953020134
+fiddlesticks,"('Warwick', 47)","('Lee Sin', 57)",0.4966442953020134
+fiddlesticks,"('Xin Zhao', 48)","('Zed', 57)",0.4966442953020134
+fiddlesticks,"('Master Yi', 48)","('Graves', 57)",0.4966442953020134
+fiddlesticks,"('Volibear', 48)","('Nunu & Willump', 54)",0.4966442953020134
+nasus,"('Urgot', 42)","('Kennen', 56)",0.4424778761061947
+nasus,"('Gragas', 45)","('Dr. Mundo', 56)",0.4424778761061947
+nasus,"('Yone', 46)","('Fiora', 56)",0.4424778761061947
+nasus,"('Darius', 47)","('Vladimir', 55)",0.4424778761061947
+nasus,"('Riven', 48)","('Jayce', 54)",0.4424778761061947
+riven,"('Pantheon', 44)","('Rumble', 62)",0.5158150851581509
+riven,"('Renekton', 44)","('Singed', 58)",0.5158150851581509
+riven,"('Tryndamere', 46)","('Yone', 57)",0.5158150851581509
+riven,"('Urgot', 46)","(""K'Sante"", 57)",0.5158150851581509
+riven,"(""Cho'Gath"", 47)","('Gwen', 55)",0.5158150851581509
+velkoz,"('Pantheon', 46)","('Zilean', 59)",0.5432098765432098
+velkoz,"('Yuumi', 47)","('Tahm Kench', 57)",0.5432098765432098
+velkoz,"('Milio', 48)","('Leona', 57)",0.5432098765432098
+velkoz,"('Janna', 48)","('Rakan', 56)",0.5432098765432098
+velkoz,"('Soraka', 48)","('Swain', 56)",0.5432098765432098
+xayah,"('Sivir', 44)","(""Kai'Sa"", 55)",0.501126443255421
+xayah,"('Jhin', 48)","('Nilah', 54)",0.501126443255421
+xayah,"('Jinx', 48)","('Kalista', 54)",0.501126443255421
+xayah,"('Draven', 48)","('Samira', 53)",0.501126443255421
+xayah,"('Varus', 49)","('Lucian', 52)",0.501126443255421
+akshan,"('Annie', 38)","('Hwei', 58)",0.49356223175965663
+akshan,"('Yasuo', 44)","('LeBlanc', 55)",0.49356223175965663
+akshan,"('Diana', 44)","('Sylas', 55)",0.49356223175965663
+akshan,"('Irelia', 46)","('Yone', 55)",0.49356223175965663
+akshan,"('Veigar', 46)","('Zoe', 54)",0.49356223175965663
+aurelion-sol,"('LeBlanc', 45)","('Hwei', 58)",0.5397727272727273
+aurelion-sol,"('Fizz', 46)","('Vladimir', 57)",0.5397727272727273
+aurelion-sol,"('Zed', 46)","('Aurora', 57)",0.5397727272727273
+aurelion-sol,"('Veigar', 46)","('Mel', 57)",0.5397727272727273
+aurelion-sol,"('Katarina', 47)","('Lux', 56)",0.5397727272727273
+nunu-willump,"('Xin Zhao', 42)","('Kindred', 58)",0.5353535353535354
+nunu-willump,"('Warwick', 44)","('Zed', 58)",0.5353535353535354
+nunu-willump,"('Fiddlesticks', 46)","('Nidalee', 56)",0.5353535353535354
+nunu-willump,"('Darius', 47)","('Graves', 56)",0.5353535353535354
+nunu-willump,"('Ekko', 48)","('Shaco', 55)",0.5353535353535354
+ryze,"('Veigar', 43)","('Azir', 59)",0.4626402070750647
+ryze,"('Syndra', 45)","('Ekko', 58)",0.4626402070750647
+ryze,"('Malzahar', 46)","('Vladimir', 58)",0.4626402070750647
+ryze,"('Viktor', 47)","('LeBlanc', 57)",0.4626402070750647
+ryze,"('Twisted Fate', 48)","('Hwei', 56)",0.4626402070750647
+taliyah,"(""Cho'Gath"", 44)","('Mel', 59)",0.5268468468468468
+taliyah,"('Katarina', 47)","('Yasuo', 57)",0.5268468468468468
+taliyah,"('Lux', 47)","('Aurora', 55)",0.5268468468468468
+taliyah,"('Hwei', 48)","('Malzahar', 54)",0.5268468468468468
+taliyah,"('Syndra', 48)","('Sylas', 53)",0.5268468468468468
+vex,"(""Cho'Gath"", 46)","('Yone', 58)",0.4900086880973067
+vex,"('Fizz', 47)","('Aurora', 57)",0.4900086880973067
+vex,"('Zoe', 47)","('Azir', 56)",0.4900086880973067
+vex,"('Veigar', 48)","('Qiyana', 56)",0.4900086880973067
+vex,"('Orianna', 48)","('Mel', 55)",0.4900086880973067
+zilean,"(""Vel'Koz"", 41)","('Mel', 60)",0.4740990990990991
+zilean,"('Pantheon', 44)","('Rakan', 57)",0.4740990990990991
+zilean,"('Soraka', 47)","('Braum', 55)",0.4740990990990991
+zilean,"('Milio', 48)","('Xerath', 55)",0.4740990990990991
+zilean,"('Karma', 49)","('Bard', 55)",0.4740990990990991
+heimerdinger,"('Sion', 41)","('Aatrox', 62)",0.5389048991354467
+heimerdinger,"('Sett', 43)","('Mordekaiser', 52)",0.5389048991354467
+heimerdinger,"('Garen', 44)","('Darius', 52)",0.5389048991354467
+heimerdinger,"('Darius', 52)","('Garen', 44)",0.5389048991354467
+heimerdinger,"('Mordekaiser', 52)","('Sett', 43)",0.5389048991354467
+kassadin,"(""Cho'Gath"", 43)","('Mel', 59)",0.48936170212765956
+kassadin,"('Veigar', 46)","('LeBlanc', 57)",0.48936170212765956
+kassadin,"('Yone', 47)","('Viktor', 56)",0.48936170212765956
+kassadin,"('Yasuo', 47)","('Diana', 56)",0.48936170212765956
+kassadin,"('Hwei', 49)","('Vladimir', 54)",0.48936170212765956
+naafiri,"('Yasuo', 49)","('Sylas', 58)",0.7777777777777778
+naafiri,"('Syndra', 49)","('Katarina', 57)",0.7777777777777778
+naafiri,"('Yone', 50)","('Akali', 54)",0.7777777777777778
+naafiri,"('Malzahar', 51)","('Zed', 53)",0.7777777777777778
+naafiri,"('Lux', 51)","('Ahri', 53)",0.7777777777777778
+jhin,"('Vayne', 46)","('Smolder', 54)",0.48443612859329815
+jhin,"(""Kog'Maw"", 47)","('Sivir', 52)",0.48443612859329815
+jhin,"('Jinx', 47)","('Xayah', 52)",0.48443612859329815
+jhin,"('Tristana', 47)","('Ezreal', 52)",0.48443612859329815
+jhin,"('Twitch', 48)","('Aphelios', 51)",0.48443612859329815
+ashe,"(""Kog'Maw"", 47)","('Kalista', 53)",0.49522873982598936
+ashe,"('Nilah', 47)","('Varus', 52)",0.49522873982598936
+ashe,"('Zeri', 47)","(""Kai'Sa"", 52)",0.49522873982598936
+ashe,"('Ziggs', 48)","('Draven', 52)",0.49522873982598936
+ashe,"('Jinx', 48)","('Aphelios', 52)",0.49522873982598936
+yasuo,"('Taliyah', 43)","('Akshan', 56)",0.4968684759916493
+yasuo,"('Anivia', 44)","('Hwei', 53)",0.4968684759916493
+yasuo,"('Malzahar', 44)","('Mel', 53)",0.4968684759916493
+yasuo,"('Cassiopeia', 44)","('Kassadin', 53)",0.4968684759916493
+yasuo,"('Annie', 45)","('Aurora', 53)",0.4968684759916493
+garen,"('Kayle', 43)","(""K'Sante"", 57)",0.4947916666666667
+garen,"('Camille', 44)","('Wukong', 56)",0.4947916666666667
+garen,"('Kennen', 46)","('Heimerdinger', 56)",0.4947916666666667
+garen,"('Sett', 47)","('Jax', 55)",0.4947916666666667
+garen,"('Teemo', 47)","('Illaoi', 55)",0.4947916666666667
+pantheon,"('Ekko', 44)","('Gragas', 59)",0.5119589977220956
+pantheon,"('Zyra', 45)","('Skarner', 55)",0.5119589977220956
+pantheon,"(""Bel'Veth"", 45)","('Gwen', 54)",0.5119589977220956
+pantheon,"('Evelynn', 46)","('Nidalee', 54)",0.5119589977220956
+pantheon,"('Jarvan IV', 47)","('Zed', 54)",0.5119589977220956
+aatrox,"('Heimerdinger', 38)","('Dr. Mundo', 56)",0.4991284137129576
+aatrox,"('Singed', 44)","('Trundle', 56)",0.4991284137129576
+aatrox,"('Malphite', 46)","('Sion', 55)",0.4991284137129576
+aatrox,"('Warwick', 46)","('Olaf', 55)",0.4991284137129576
+aatrox,"('Gwen', 47)","('Vladimir', 54)",0.4991284137129576
+kayn,"('Ivern', 45)","('Skarner', 57)",0.45422535211267606
+kayn,"('Darius', 45)","('Sejuani', 56)",0.45422535211267606
+kayn,"(""Rek'Sai"", 47)","('Briar', 54)",0.45422535211267606
+kayn,"('Master Yi', 47)","('Evelynn', 54)",0.45422535211267606
+kayn,"('Wukong', 47)","('Nidalee', 54)",0.45422535211267606
+viktor,"('Kassadin', 44)","('Mel', 57)",0.47565473994835855
+viktor,"('Lux', 46)","('Azir', 55)",0.47565473994835855
+viktor,"(""Vel'Koz"", 47)","('Zed', 54)",0.47565473994835855
+viktor,"('LeBlanc', 47)","('Ryze', 53)",0.47565473994835855
+viktor,"('Veigar', 47)","('Diana', 53)",0.47565473994835855
+tristana,"('Ziggs', 46)","('Twitch', 54)",0.5026670850329463
+tristana,"('Xayah', 48)","('Sivir', 53)",0.5026670850329463
+tristana,"('Vayne', 49)","('Zeri', 53)",0.5026670850329463
+tristana,"(""Kog'Maw"", 49)","('Kalista', 53)",0.5026670850329463
+tristana,"('Nilah', 49)","('Jhin', 53)",0.5026670850329463
+vi,"('Shyvana', 43)","('Rengar', 56)",0.4931552587646077
+vi,"('Darius', 46)","('Evelynn', 56)",0.4931552587646077
+vi,"('Kindred', 46)","('Gragas', 55)",0.4931552587646077
+vi,"('Nocturne', 46)","('Nidalee', 55)",0.4931552587646077
+vi,"('Jarvan IV', 47)","(""Rek'Sai"", 55)",0.4931552587646077
+volibear,"('Quinn', 38)","('Irelia', 60)",0.4828931040595639
+volibear,"('Teemo', 43)","('Tahm Kench', 57)",0.4828931040595639
+volibear,"('Kennen', 44)","('Trundle', 54)",0.4828931040595639
+volibear,"('Kayle', 45)","('Sion', 54)",0.4828931040595639
+volibear,"('Urgot', 45)","('Dr. Mundo', 54)",0.4828931040595639
+elise,"('Nocturne', 44)","('Nidalee', 59)",0.508407214918985
+elise,"('Shaco', 45)","('Skarner', 58)",0.508407214918985
+elise,"('Zac', 45)","('Zed', 55)",0.508407214918985
+elise,"('Wukong', 45)","('Volibear', 54)",0.508407214918985
+elise,"('Fiddlesticks', 47)","('Evelynn', 54)",0.508407214918985
+graves,"('Yorick', 43)","('Rengar', 55)",0.4934549198411531
+graves,"(""Rek'Sai"", 43)","('Hecarim', 54)",0.4934549198411531
+graves,"('Fiddlesticks', 43)","('Lillia', 54)",0.4934549198411531
+graves,"('Darius', 44)","('Briar', 53)",0.4934549198411531
+graves,"('Nunu & Willump', 44)","('Kayn', 52)",0.4934549198411531
+syndra,"('Fizz', 45)","('Mel', 57)",0.4852553645375831
+syndra,"('Aurelion Sol', 46)","('Yone', 55)",0.4852553645375831
+syndra,"('Akshan', 46)","('Hwei', 55)",0.4852553645375831
+syndra,"('Xerath', 47)","('Ryze', 55)",0.4852553645375831
+syndra,"(""Cho'Gath"", 47)","('Annie', 53)",0.4852553645375831
+vladimir,"('Malzahar', 40)","('Katarina', 56)",0.4919614147909968
+vladimir,"('Ryze', 42)","('Yone', 55)",0.4919614147909968
+vladimir,"('Aurelion Sol', 43)","('Qiyana', 55)",0.4919614147909968
+vladimir,"('Anivia', 45)","('Mel', 54)",0.4919614147909968
+vladimir,"('Kassadin', 46)","('Yasuo', 54)",0.4919614147909968
+yuumi,"('Taric', 41)","('Mel', 62)",0.49117468046256846
+yuumi,"('Rell', 44)","('Swain', 59)",0.49117468046256846
+yuumi,"('Thresh', 46)","('Lux', 56)",0.49117468046256846
+yuumi,"('Braum', 46)","('Xerath', 55)",0.49117468046256846
+yuumi,"('Poppy', 47)","('Seraphine', 54)",0.49117468046256846
+irelia,"('Volibear', 40)","('Yorick', 57)",0.49563647306650616
+irelia,"('Malphite', 44)","('Rumble', 57)",0.49563647306650616
+irelia,"('Camille', 45)","('Gnar', 57)",0.49563647306650616
+irelia,"('Warwick', 45)","('Yone', 56)",0.49563647306650616
+irelia,"('Jax', 46)","('Dr. Mundo', 54)",0.49563647306650616
+lucian,"('Nilah', 46)","('Kalista', 54)",0.5057542383368395
+lucian,"('Samira', 47)","('Zeri', 52)",0.5057542383368395
+lucian,"('Xayah', 48)","('Twitch', 52)",0.5057542383368395
+lucian,"('Miss Fortune', 48)","('Jhin', 52)",0.5057542383368395
+lucian,"(""Kog'Maw"", 49)","(""Kai'Sa"", 52)",0.5057542383368395
+shaco,"('Briar', 43)","('Nidalee', 56)",0.4852941176470588
+shaco,"('Nunu & Willump', 45)","('Elise', 55)",0.4852941176470588
+shaco,"('Jarvan IV', 45)","('Wukong', 54)",0.4852941176470588
+shaco,"('Darius', 45)","('Master Yi', 53)",0.4852941176470588
+shaco,"('Talon', 46)","('Zac', 53)",0.4852941176470588
+sion,"('Aatrox', 45)","('Heimerdinger', 59)",0.47904191616766467
+sion,"('Darius', 45)","('Quinn', 58)",0.47904191616766467
+sion,"('Vladimir', 45)","('Jax', 56)",0.47904191616766467
+sion,"('Mordekaiser', 46)","('Malphite', 56)",0.47904191616766467
+sion,"('Volibear', 46)","('Teemo', 56)",0.47904191616766467
+swain,"('Yuumi', 41)","('Blitzcrank', 55)",0.5273109243697479
+swain,"('Milio', 41)","('Nautilus', 55)",0.5273109243697479
+swain,"('Xerath', 43)","('Leona', 55)",0.5273109243697479
+swain,"('Bard', 43)","('Rell', 55)",0.5273109243697479
+swain,"('Brand', 43)","('Alistar', 54)",0.5273109243697479
+twitch,"('Nilah', 41)","('Smolder', 54)",0.506951871657754
+twitch,"('Tristana', 46)","('Aphelios', 54)",0.506951871657754
+twitch,"('Samira', 47)","('Miss Fortune', 53)",0.506951871657754
+twitch,"('Corki', 47)","('Sivir', 52)",0.506951871657754
+twitch,"('Lucian', 48)","('Jhin', 52)",0.506951871657754
+zyra,"('Zilean', 47)","('Brand', 57)",0.5062862669245648
+zyra,"('Soraka', 47)","('Pantheon', 55)",0.5062862669245648
+zyra,"('Yuumi', 47)","('Mel', 54)",0.5062862669245648
+zyra,"('Blitzcrank', 48)","('Lux', 54)",0.5062862669245648
+zyra,"('Elise', 48)","('Bard', 54)",0.5062862669245648
+corki,"('Zeri', 47)","('Aphelios', 55)",0.5004451227266946
+corki,"('Vayne', 47)","('Smolder', 54)",0.5004451227266946
+corki,"('Varus', 49)","('Samira', 54)",0.5004451227266946
+corki,"('Jinx', 49)","('Draven', 54)",0.5004451227266946
+corki,"('Jhin', 49)","('Kalista', 54)",0.5004451227266946
+leblanc,"('Anivia', 42)","('Azir', 56)",0.5015110812625924
+leblanc,"('Ryze', 43)","('Yone', 56)",0.5015110812625924
+leblanc,"('Kassadin', 43)","('Orianna', 56)",0.5015110812625924
+leblanc,"('Malzahar', 44)","('Aurelion Sol', 55)",0.5015110812625924
+leblanc,"('Akshan', 45)","('Talon', 54)",0.5015110812625924
+morgana,"('Milio', 46)","('Bard', 55)",0.5215475024485798
+morgana,"('Karma', 46)","('Mel', 55)",0.5215475024485798
+morgana,"('Sona', 46)","('Alistar', 55)",0.5215475024485798
+morgana,"('Janna', 46)","('Leona', 54)",0.5215475024485798
+morgana,"('Pantheon', 47)","('Blitzcrank', 54)",0.5215475024485798
+senna,"('Maokai', 45)","('Mel', 59)",0.5159235668789809
+senna,"('Thresh', 46)","('Rakan', 56)",0.5159235668789809
+senna,"('Zyra', 47)","('Poppy', 54)",0.5159235668789809
+senna,"('Taric', 48)","('Tahm Kench', 54)",0.5159235668789809
+senna,"('Nami', 48)","('Brand', 53)",0.5159235668789809
+seraphine,"('Braum', 44)","('Swain', 57)",0.5241228070175439
+seraphine,"(""Vel'Koz"", 44)","('Elise', 56)",0.5241228070175439
+seraphine,"('Janna', 45)","('Leona', 54)",0.5241228070175439
+seraphine,"('Milio', 45)","('Nautilus', 53)",0.5241228070175439
+seraphine,"('Yuumi', 46)","('Alistar', 53)",0.5241228070175439
+xin-zhao,"('Gwen', 45)","('Nunu & Willump', 58)",0.49446056449485626
+xin-zhao,"('Udyr', 47)","('Rengar', 57)",0.49446056449485626
+xin-zhao,"('Evelynn', 47)","('Zyra', 57)",0.49446056449485626
+xin-zhao,"('Volibear', 47)","('Lillia', 54)",0.49446056449485626
+xin-zhao,"('Nocturne', 47)","('Sejuani', 54)",0.49446056449485626
+zac,"('Briar', 45)","('Nidalee', 61)",0.496875
+zac,"('Zed', 46)","('Udyr', 56)",0.496875
+zac,"('Darius', 46)","('Gragas', 56)",0.496875
+zac,"('Lillia', 46)","('Elise', 55)",0.496875
+zac,"('Sejuani', 46)","('Graves', 53)",0.496875
+gwen,"('Jax', 42)","('Gangplank', 58)",0.5191599913401169
+gwen,"('Kayle', 44)","(""K'Sante"", 57)",0.5191599913401169
+gwen,"('Riven', 45)","('Dr. Mundo', 57)",0.5191599913401169
+gwen,"('Yone', 45)","('Shen', 56)",0.5191599913401169
+gwen,"('Garen', 45)","('Sion', 53)",0.5191599913401169
+samira,"('Nilah', 43)","('Kalista', 56)",0.48681235870384326
+samira,"('Jinx', 45)","(""Kai'Sa"", 55)",0.48681235870384326
+samira,"(""Kog'Maw"", 45)","('Twitch', 53)",0.48681235870384326
+samira,"('Miss Fortune', 46)","('Lucian', 53)",0.48681235870384326
+samira,"('Corki', 46)","('Aphelios', 52)",0.48681235870384326
+twisted-fate,"('Irelia', 46)","('Akali', 54)",0.5658236057068742
+twisted-fate,"('Yasuo', 47)","('Xerath', 53)",0.5658236057068742
+twisted-fate,"('Lissandra', 48)","('LeBlanc', 53)",0.5658236057068742
+twisted-fate,"('Fizz', 48)","('Qiyana', 52)",0.5658236057068742
+twisted-fate,"('Orianna', 48)","('Azir', 52)",0.5658236057068742
+zeri,"('Draven', 43)","('Kalista', 55)",0.5143620574482298
+zeri,"('Tristana', 47)","('Corki', 53)",0.5143620574482298
+zeri,"(""Kog'Maw"", 47)","('Ashe', 53)",0.5143620574482298
+zeri,"('Jinx', 48)","('Varus', 53)",0.5143620574482298
+zeri,"('Lucian', 48)","('Smolder', 52)",0.5143620574482298
+bard,"('Morgana', 45)","('Swain', 57)",0.5616252821670429
+bard,"('Sona', 45)","('Mel', 57)",0.5616252821670429
+bard,"('Maokai', 45)","('Pyke', 54)",0.5616252821670429
+bard,"('Zilean', 45)","('Lux', 53)",0.5616252821670429
+bard,"('Pantheon', 46)","('Rakan', 53)",0.5616252821670429
+dr-mundo,"('Warwick', 41)","('Jax', 60)",0.45647058823529413
+dr-mundo,"('Yorick', 42)","('Malphite', 58)",0.45647058823529413
+dr-mundo,"('Ornn', 42)","(""Cho'Gath"", 56)",0.45647058823529413
+dr-mundo,"('Gwen', 43)","('Gangplank', 56)",0.45647058823529413
+dr-mundo,"('Tryndamere', 43)","('Renekton', 55)",0.45647058823529413
+fiora,"('Warwick', 43)","(""K'Sante"", 56)",0.49927849927849927
+fiora,"('Nasus', 44)","('Gwen', 54)",0.49927849927849927
+fiora,"('Sett', 46)","(""Cho'Gath"", 53)",0.49927849927849927
+fiora,"('Malphite', 46)","('Yone', 53)",0.49927849927849927
+fiora,"('Camille', 47)","('Irelia', 53)",0.49927849927849927
+fizz,"(""Cho'Gath"", 38)","('Mel', 59)",0.49337748344370863
+fizz,"('Ryze', 44)","('Syndra', 55)",0.49337748344370863
+fizz,"('Galio', 44)","('Aurelion Sol', 54)",0.49337748344370863
+fizz,"('Akshan', 46)","('Yone', 54)",0.49337748344370863
+fizz,"('Anivia', 47)","('Vex', 53)",0.49337748344370863
+lissandra,"('Xerath', 43)","('Yasuo', 54)",0.5173745173745173
+lissandra,"('Veigar', 44)","('Yone', 54)",0.5173745173745173
+lissandra,"('Azir', 45)","('Vladimir', 54)",0.5173745173745173
+lissandra,"('Hwei', 47)","('Ekko', 54)",0.5173745173745173
+lissandra,"('Orianna', 47)","('Zed', 54)",0.5173745173745173
+maokai,"('Elise', 46)","('Pyke', 58)",0.5268754833720031
+maokai,"('Braum', 46)","('Leona', 55)",0.5268754833720031
+maokai,"('Milio', 46)","('Bard', 55)",0.5268754833720031
+maokai,"('Thresh', 47)","('Senna', 55)",0.5268754833720031
+maokai,"('Rell', 48)","('Mel', 54)",0.5268754833720031
+neeko,"('Lulu', 45)","('Rell', 59)",0.48396645288603846
+neeko,"('Karma', 46)","('Rakan', 54)",0.48396645288603846
+neeko,"('Senna', 47)","('Seraphine', 53)",0.48396645288603846
+neeko,"('Yuumi', 47)","('Morgana', 52)",0.48396645288603846
+neeko,"('Lux', 47)","('Elise', 52)",0.48396645288603846
+rammus,"('Darius', 40)","('Viego', 62)",0.5
+rammus,"('Diana', 43)","('Graves', 54)",0.5
+rammus,"('Lillia', 46)","('Briar', 53)",0.5
+rammus,"('Nocturne', 47)","('Master Yi', 52)",0.5
+rammus,"('Vi', 49)","('Warwick', 51)",0.5
+renata-glasc,"('Soraka', 46)","('Nautilus', 58)",0.5362466124661247
+renata-glasc,"('Nami', 47)","('Leona', 57)",0.5362466124661247
+renata-glasc,"('Lulu', 47)","('Pyke', 56)",0.5362466124661247
+renata-glasc,"('Janna', 48)","('Rakan', 52)",0.5362466124661247
+renata-glasc,"('Yuumi', 48)","('Thresh', 52)",0.5362466124661247
+shyvana,"('Master Yi', 42)","('Vi', 57)",0.4721115537848606
+shyvana,"('Darius', 42)","('Lee Sin', 53)",0.4721115537848606
+shyvana,"('Warwick', 43)","('Hecarim', 53)",0.4721115537848606
+shyvana,"('Amumu', 45)","('Jarvan IV', 53)",0.4721115537848606
+shyvana,"('Graves', 49)","('Diana', 53)",0.4721115537848606
+singed,"('Riven', 42)","(""K'Sante"", 59)",0.45454545454545453
+singed,"('Camille', 44)","('Aatrox', 56)",0.45454545454545453
+singed,"('Urgot', 45)","('Mordekaiser', 55)",0.45454545454545453
+singed,"('Kayle', 45)","('Malphite', 55)",0.45454545454545453
+singed,"('Garen', 46)","('Jax', 53)",0.45454545454545453
+ziggs,"('Vayne', 45)","('Tristana', 54)",0.4827734711455642
+ziggs,"('Draven', 48)","('Caitlyn', 54)",0.4827734711455642
+ziggs,"('Jinx', 49)","('Ashe', 52)",0.4827734711455642
+ziggs,"('Miss Fortune', 51)","('Varus', 52)",0.4827734711455642
+ziggs,"('Ezreal', 51)","(""Kai'Sa"", 52)",0.4827734711455642
+reksai,"('Nocturne', 45)","('Graves', 57)",0.491401771756123
+reksai,"('Vi', 45)","('Kayn', 53)",0.491401771756123
+reksai,"('Darius', 47)","('Diana', 52)",0.491401771756123
+reksai,"('Viego', 50)","('Lee Sin', 51)",0.491401771756123
+reksai,"('Lee Sin', 51)","('Viego', 50)",0.491401771756123
+caitlyn,"('Nilah', 44)","('Smolder', 52)",0.507928388746803
+caitlyn,"('Ziggs', 46)","(""Kai'Sa"", 52)",0.507928388746803
+caitlyn,"('Sivir', 48)","('Samira', 51)",0.507928388746803
+caitlyn,"('Jinx', 48)","('Varus', 51)",0.507928388746803
+caitlyn,"('Miss Fortune', 49)","('Lucian', 51)",0.507928388746803
+lee-sin,"('Fiddlesticks', 43)","('Zed', 53)",0.49959349593495933
+lee-sin,"('Yorick', 43)","('Talon', 52)",0.49959349593495933
+lee-sin,"('Darius', 45)","(""Kha'Zix"", 52)",0.49959349593495933
+lee-sin,"('Warwick', 45)","('Nidalee', 51)",0.49959349593495933
+lee-sin,"('Gwen', 46)","('Rengar', 51)",0.49959349593495933
+lux,"('Yuumi', 44)","('Mel', 54)",0.5188519977490152
+lux,"('Xerath', 45)","('Neeko', 53)",0.5188519977490152
+lux,"('Nami', 46)","('Maokai', 51)",0.5188519977490152
+lux,"('Zyra', 46)","('Braum', 50)",0.5188519977490152
+lux,"('Elise', 47)","('Renata Glasc', 50)",0.5188519977490152
+sylas,"('Naafiri', 42)","('Qiyana', 55)",0.510931289040318
+sylas,"('Swain', 44)","('Azir', 53)",0.510931289040318
+sylas,"('Malzahar', 44)","('Lissandra', 52)",0.510931289040318
+sylas,"('Akshan', 45)","('Irelia', 52)",0.510931289040318
+sylas,"('Galio', 46)","('Zed', 52)",0.510931289040318
+viego,"('Rammus', 38)","('Gragas', 54)",0.484765625
+viego,"('Warwick', 46)","('Skarner', 54)",0.484765625
+viego,"('Amumu', 46)","('Ivern', 52)",0.484765625
+viego,"('Darius', 47)","('Hecarim', 52)",0.484765625
+viego,"('Yorick', 47)","('Jarvan IV', 52)",0.484765625
+nautilus,"('Renata Glasc', 42)","('Mel', 54)",0.4891434025292293
+nautilus,"('Taric', 43)","('Xerath', 53)",0.4891434025292293
+nautilus,"('Rell', 44)","('Nami', 52)",0.4891434025292293
+nautilus,"('Swain', 45)","('Sona', 52)",0.4891434025292293
+nautilus,"('Braum', 45)","('Pyke', 52)",0.4891434025292293
+varus,"('Vayne', 45)","('Draven', 53)",0.4974603819585534
+varus,"(""Kog'Maw"", 46)","(""Kai'Sa"", 52)",0.4974603819585534
+varus,"('Nilah', 47)","('Aphelios', 52)",0.4974603819585534
+varus,"('Miss Fortune', 47)","('Kalista', 52)",0.4974603819585534
+varus,"('Zeri', 47)","('Smolder', 52)",0.4974603819585534
+akali,"('Annie', 44)","('Xerath', 55)",0.5102545968882602
+akali,"('Veigar', 45)","('Hwei', 54)",0.5102545968882602
+akali,"('Ahri', 45)","('Zed', 54)",0.5102545968882602
+akali,"('Cassiopeia', 45)","('Katarina', 53)",0.5102545968882602
+akali,"('Vex', 46)","('Anivia', 53)",0.5102545968882602
+jax,"('Dr. Mundo', 40)","('Yone', 58)",0.5108038029386344
+jax,"('Quinn', 41)","('Gwen', 58)",0.5108038029386344
+jax,"('Illaoi', 43)","('Irelia', 54)",0.5108038029386344
+jax,"('Kennen', 43)","('Fiora', 52)",0.5108038029386344
+jax,"('Malphite', 43)","('Ambessa', 52)",0.5108038029386344
+ambessa,"('Quinn', 38)","(""K'Sante"", 57)",0.5313807531380753
+ambessa,"('Poppy', 42)","('Tahm Kench', 57)",0.5313807531380753
+ambessa,"('Teemo', 43)","('Dr. Mundo', 53)",0.5313807531380753
+ambessa,"('Sett', 44)","('Gragas', 53)",0.5313807531380753
+ambessa,"('Warwick', 44)","('Rumble', 53)",0.5313807531380753
+aurora,"(""Cho'Gath"", 42)","('Mel', 53)",0.5015873015873016
+aurora,"('Vex', 43)","('LeBlanc', 53)",0.5015873015873016
+aurora,"('Veigar', 43)","('Yone', 52)",0.5015873015873016
+aurora,"('Aurelion Sol', 43)","('Sylas', 51)",0.5015873015873016
+aurora,"('Swain', 45)","('Hwei', 51)",0.5015873015873016
+gragas,"('Ornn', 42)","('Nasus', 55)",0.4973155929038282
+gragas,"('Illaoi', 44)","('Irelia', 54)",0.4973155929038282
+gragas,"('Urgot', 45)","('Renekton', 53)",0.4973155929038282
+gragas,"('Shen', 45)","('Tryndamere', 53)",0.4973155929038282
+gragas,"('Vladimir', 46)","(""K'Sante"", 52)",0.4973155929038282
+jayce,"('Olaf', 41)","('Renekton', 55)",0.5016631387964923
+jayce,"('Wukong', 43)","('Volibear', 54)",0.5016631387964923
+jayce,"('Warwick', 43)","('Akali', 53)",0.5016631387964923
+jayce,"('Yorick', 44)","(""K'Sante"", 53)",0.5016631387964923
+jayce,"('Sion', 45)","('Illaoi', 53)",0.5016631387964923
+katarina,"(""Cho'Gath"", 43)","('Hwei', 57)",0.41830065359477125
+katarina,"('Naafiri', 43)","('Yone', 54)",0.41830065359477125
+katarina,"('Vladimir', 44)","('Orianna', 54)",0.41830065359477125
+katarina,"('Galio', 45)","('Mel', 54)",0.41830065359477125
+katarina,"('Ekko', 45)","('Aurelion Sol', 54)",0.41830065359477125
+leona,"('Renata Glasc', 43)","('Mel', 61)",0.4884813859196461
+leona,"(""Vel'Koz"", 43)","('Elise', 53)",0.4884813859196461
+leona,"('Taric', 43)","('Yuumi', 53)",0.4884813859196461
+leona,"('Sona', 44)","('Pantheon', 53)",0.4884813859196461
+leona,"('Maokai', 45)","('Nautilus', 52)",0.4884813859196461
+pyke,"('Maokai', 42)","('Lux', 53)",0.5047244094488189
+pyke,"('Pantheon', 43)","('Brand', 53)",0.5047244094488189
+pyke,"('Renata Glasc', 44)","('Xerath', 52)",0.5047244094488189
+pyke,"('Rell', 45)","('Senna', 52)",0.5047244094488189
+pyke,"('Soraka', 46)","('Sona', 52)",0.5047244094488189
+aphelios,"(""Kog'Maw"", 41)","(""Kai'Sa"", 54)",0.508578431372549
+aphelios,"('Corki', 45)","('Smolder', 51)",0.508578431372549
+aphelios,"('Twitch', 46)","('Vayne', 51)",0.508578431372549
+aphelios,"('Jinx', 46)","('Kalista', 50)",0.508578431372549
+aphelios,"('Sivir', 47)","('Xayah', 50)",0.508578431372549
+blitzcrank,"('Rakan', 44)","('Neeko', 52)",0.5167832167832168
+blitzcrank,"('Poppy', 45)","('Mel', 52)",0.5167832167832168
+blitzcrank,"('Taric', 45)","('Zyra', 52)",0.5167832167832168
+blitzcrank,"('Swain', 45)","(""Vel'Koz"", 51)",0.5167832167832168
+blitzcrank,"('Tahm Kench', 45)","('Senna', 51)",0.5167832167832168
+draven,"(""Kog'Maw"", 43)","('Zeri', 57)",0.5223792697290931
+draven,"('Nilah', 45)","(""Kai'Sa"", 53)",0.5223792697290931
+draven,"('Corki', 46)","('Aphelios', 52)",0.5223792697290931
+draven,"('Varus', 47)","('Ziggs', 52)",0.5223792697290931
+draven,"('Kalista', 48)","('Xayah', 52)",0.5223792697290931
+gangplank,"('Kayle', 42)","('Volibear', 54)",0.5106382978723404
+gangplank,"('Gwen', 42)","(""K'Sante"", 54)",0.5106382978723404
+gangplank,"('Olaf', 43)","('Illaoi', 54)",0.5106382978723404
+gangplank,"('Ornn', 44)","('Shen', 53)",0.5106382978723404
+gangplank,"('Dr. Mundo', 44)","('Yone', 53)",0.5106382978723404
+gnar,"('Malphite', 42)","('Yone', 54)",0.504424778761062
+gnar,"('Olaf', 43)","('Yorick', 53)",0.504424778761062
+gnar,"('Irelia', 43)","(""K'Sante"", 52)",0.504424778761062
+gnar,"('Camille', 45)","('Rumble', 52)",0.504424778761062
+gnar,"('Dr. Mundo', 46)","('Volibear', 52)",0.504424778761062
+hwei,"('Aurelion Sol', 42)","('Sylas', 54)",0.48860911270983215
+hwei,"('Akshan', 42)","('Qiyana', 53)",0.48860911270983215
+hwei,"('Anivia', 43)","('Lissandra', 53)",0.48860911270983215
+hwei,"('Katarina', 43)","('Vladimir', 53)",0.48860911270983215
+hwei,"('Ryze', 44)","('Taliyah', 52)",0.48860911270983215
+khazix,"('Warwick', 43)","('Gragas', 58)",0.5158995815899582
+khazix,"('Sejuani', 44)","('Rengar', 54)",0.5158995815899582
+khazix,"('Diana', 45)","(""Bel'Veth"", 53)",0.5158995815899582
+khazix,"('Jarvan IV', 46)","('Lillia', 52)",0.5158995815899582
+khazix,"('Nocturne', 46)","('Graves', 52)",0.5158995815899582
+orianna,"('Talon', 43)","('Mel', 56)",0.49220294311443
+orianna,"(""Cho'Gath"", 44)","('Lissandra', 53)",0.49220294311443
+orianna,"('Irelia', 44)","('Vex', 52)",0.49220294311443
+orianna,"('LeBlanc', 44)","('Yone', 52)",0.49220294311443
+orianna,"('Anivia', 45)","('Swain', 52)",0.49220294311443
+renekton,"('Quinn', 41)","('Riven', 56)",0.5046505203057372
+renekton,"('Teemo', 43)","('Ambessa', 54)",0.5046505203057372
+renekton,"('Ornn', 43)","('Camille', 54)",0.5046505203057372
+renekton,"('Mordekaiser', 43)","('Yone', 53)",0.5046505203057372
+renekton,"('Poppy', 44)","('Yorick', 53)",0.5046505203057372
+shen,"('Olaf', 43)","('Illaoi', 56)",0.47724574594380686
+shen,"('Gwen', 44)","('Renekton', 55)",0.47724574594380686
+shen,"('Kayle', 44)","('Gragas', 55)",0.47724574594380686
+shen,"('Mordekaiser', 45)","('Tryndamere', 54)",0.47724574594380686
+shen,"('Dr. Mundo', 46)","('Camille', 54)",0.47724574594380686
+talon,"('Darius', 44)","('Evelynn', 58)",0.5176211453744494
+talon,"('Hecarim', 45)","('Shaco', 54)",0.5176211453744494
+talon,"('Amumu', 45)","('Nidalee', 53)",0.5176211453744494
+talon,"('Wukong', 46)","('Lillia', 52)",0.5176211453744494
+talon,"('Kayn', 46)","('Ekko', 52)",0.5176211453744494
+alistar,"('Janna', 41)","('Lux', 53)",0.5070072036673215
+alistar,"(""Vel'Koz"", 45)","('Tahm Kench', 53)",0.5070072036673215
+alistar,"('Soraka', 45)","('Xerath', 53)",0.5070072036673215
+alistar,"('Morgana', 45)","('Pyke', 52)",0.5070072036673215
+alistar,"('Swain', 46)","('Mel', 52)",0.5070072036673215
+brand,"('Zyra', 43)","('Mel', 58)",0.5151802656546489
+brand,"('Soraka', 44)","('Swain', 57)",0.5151802656546489
+brand,"('Nami', 44)","('Rell', 55)",0.5151802656546489
+brand,"('Milio', 46)","('Blitzcrank', 54)",0.5151802656546489
+brand,"('Pyke', 47)","('Rakan', 54)",0.5151802656546489
+hecarim,"('Briar', 44)","('Zed', 57)",0.4993474288697468
+hecarim,"('Udyr', 44)","('Nidalee', 56)",0.4993474288697468
+hecarim,"('Volibear', 45)","('Gragas', 55)",0.4993474288697468
+hecarim,"('Jarvan IV', 45)","('Talon', 55)",0.4993474288697468
+hecarim,"('Darius', 45)","('Karthus', 55)",0.4993474288697468
+lillia,"('Jarvan IV', 42)","('Skarner', 58)",0.48954960259052105
+lillia,"('Rengar', 43)","('Sejuani', 54)",0.48954960259052105
+lillia,"('Darius', 43)","('Shaco', 54)",0.48954960259052105
+lillia,"('Zyra', 45)","('Zac', 54)",0.48954960259052105
+lillia,"('Master Yi', 45)","('Rammus', 54)",0.48954960259052105
+rakan,"('Zilean', 43)","('Blitzcrank', 56)",0.5405465206328134
+rakan,"('Janna', 43)","('Pantheon', 55)",0.5405465206328134
+rakan,"('Senna', 44)","('Mel', 55)",0.5405465206328134
+rakan,"(""Vel'Koz"", 44)","('Tahm Kench', 53)",0.5405465206328134
+rakan,"('Poppy', 46)","('Nautilus', 53)",0.5405465206328134
+tahm-kench,"('Soraka', 39)","('Mel', 57)",0.4937800395815663
+tahm-kench,"(""Vel'Koz"", 43)","('Blitzcrank', 55)",0.4937800395815663
+tahm-kench,"('Senna', 46)","('Karma', 54)",0.4937800395815663
+tahm-kench,"('Janna', 47)","('Pyke', 52)",0.4937800395815663
+tahm-kench,"('Zyra', 47)","('Lux', 51)",0.4937800395815663
+azir,"('Ryze', 41)","('Lissandra', 55)",0.4886542895279699
+azir,"('Vex', 44)","('Katarina', 55)",0.4886542895279699
+azir,"('Veigar', 44)","('Diana', 53)",0.4886542895279699
+azir,"('LeBlanc', 44)","('Mel', 52)",0.4886542895279699
+azir,"('Xerath', 44)","('Yone', 52)",0.4886542895279699
+kindred,"('Udyr', 38)","('Nidalee', 59)",0.486
+kindred,"('Nunu & Willump', 42)","('Vi', 54)",0.486
+kindred,"('Karthus', 43)","('Zac', 53)",0.486
+kindred,"('Amumu', 44)","('Zyra', 53)",0.486
+kindred,"('Wukong', 45)","('Shaco', 52)",0.486
+qiyana,"('Vex', 44)","('Akali', 54)",0.5282331511839709
+qiyana,"('Galio', 45)","('Yone', 54)",0.5282331511839709
+qiyana,"('Sylas', 45)","('Katarina', 52)",0.5282331511839709
+qiyana,"('Vladimir', 45)","('Orianna', 52)",0.5282331511839709
+qiyana,"('Malzahar', 45)","('Aurora', 52)",0.5282331511839709
+sejuani,"('Wukong', 44)","(""Kha'Zix"", 56)",0.4788858939802336
+sejuani,"('Kayn', 44)","('Evelynn', 55)",0.4788858939802336
+sejuani,"('Volibear', 45)","('Skarner', 54)",0.4788858939802336
+sejuani,"('Nocturne', 45)","('Zac', 54)",0.4788858939802336
+sejuani,"('Lillia', 46)","('Kindred', 53)",0.4788858939802336
+trundle,"('Malphite', 42)","('Yorick', 55)",0.4958349110185536
+trundle,"('Teemo', 44)","('Gangplank', 54)",0.4958349110185536
+trundle,"('Aatrox', 44)","('Dr. Mundo', 53)",0.4958349110185536
+trundle,"('Volibear', 46)","('Renekton', 52)",0.4958349110185536
+trundle,"('Riven', 46)","(""K'Sante"", 52)",0.4958349110185536
+tryndamere,"('Malphite', 42)","('Dr. Mundo', 57)",0.5271411338962606
+tryndamere,"('Teemo', 42)","(""K'Sante"", 55)",0.5271411338962606
+tryndamere,"('Warwick', 44)","('Ambessa', 55)",0.5271411338962606
+tryndamere,"('Darius', 45)","('Riven', 54)",0.5271411338962606
+tryndamere,"('Ornn', 45)","('Gangplank', 52)",0.5271411338962606
+udyr,"('Briar', 43)","('Kindred', 62)",0.46395348837209305
+udyr,"('Zac', 44)","('Hecarim', 56)",0.46395348837209305
+udyr,"('Nunu & Willump', 45)","('Nocturne', 55)",0.46395348837209305
+udyr,"('Jarvan IV', 45)","('Xin Zhao', 53)",0.46395348837209305
+udyr,"('Diana', 46)","('Pantheon', 52)",0.46395348837209305
+zoe,"('Ekko', 40)","('Diana', 56)",0.5113862480654433
+zoe,"('Lux', 44)","('Akali', 54)",0.5113862480654433
+zoe,"('Malzahar', 44)","('Vex', 53)",0.5113862480654433
+zoe,"('Akshan', 46)","('Azir', 53)",0.5113862480654433
+zoe,"('Fizz', 47)","('Katarina', 52)",0.5113862480654433
+belveth,"('Darius', 46)","('Pantheon', 55)",0.46567164179104475
+belveth,"('Ekko', 46)","('Diana', 52)",0.46567164179104475
+belveth,"('Amumu', 46)","('Viego', 52)",0.46567164179104475
+belveth,"('Kayn', 47)","('Lee Sin', 51)",0.46567164179104475
+belveth,"(""Kha'Zix"", 47)","('Vi', 51)",0.46567164179104475
+evelynn,"('Talon', 42)","('Graves', 55)",0.5469387755102041
+evelynn,"('Vi', 44)","('Pantheon', 54)",0.5469387755102041
+evelynn,"('Jarvan IV', 44)","('Xin Zhao', 53)",0.5469387755102041
+evelynn,"('Darius', 45)","('Viego', 52)",0.5469387755102041
+evelynn,"('Sejuani', 45)","('Lee Sin', 52)",0.5469387755102041
+illaoi,"('Kayle', 41)","(""K'Sante"", 63)",0.47058823529411764
+illaoi,"('Mordekaiser', 43)","('Jax', 57)",0.47058823529411764
+illaoi,"('Malphite', 43)","('Gragas', 56)",0.47058823529411764
+illaoi,"('Yorick', 43)","('Renekton', 54)",0.47058823529411764
+illaoi,"('Shen', 44)","('Ambessa', 53)",0.47058823529411764
+karthus,"('Darius', 41)","('Kindred', 57)",0.49649532710280375
+karthus,"('Warwick', 42)","('Zyra', 53)",0.49649532710280375
+karthus,"('Master Yi', 42)","('Graves', 52)",0.49649532710280375
+karthus,"('Diana', 45)","('Shaco', 52)",0.49649532710280375
+karthus,"('Hecarim', 45)","('Lee Sin', 52)",0.49649532710280375
+ivern,"('Nocturne', 45)","('Kayn', 55)",0.502092050209205
+ivern,"('Jarvan IV', 45)","('Vi', 53)",0.502092050209205
+ivern,"('Diana', 46)","('Master Yi', 52)",0.502092050209205
+ivern,"('Viego', 48)","('Lee Sin', 50)",0.502092050209205
+ivern,"('Darius', 48)","('Graves', 49)",0.502092050209205
+ezreal,"('Nilah', 44)","('Caitlyn', 51)",0.48831249514638503
+ezreal,"(""Kog'Maw"", 45)","('Varus', 50)",0.48831249514638503
+ezreal,"('Vayne', 45)","('Smolder', 50)",0.48831249514638503
+ezreal,"('Sivir', 46)","('Aphelios', 50)",0.48831249514638503
+ezreal,"('Jinx', 47)","('Kalista', 50)",0.48831249514638503
+kaisa,"('Nilah', 44)","('Ezreal', 51)",0.5017706347044402
+kaisa,"('Jinx', 45)","('Smolder', 50)",0.5017706347044402
+kaisa,"(""Kog'Maw"", 45)","('Kalista', 50)",0.5017706347044402
+kaisa,"('Samira', 45)","('Jhin', 50)",0.5017706347044402
+kaisa,"('Xayah', 45)","('Zeri', 49)",0.5017706347044402
+yone,"('Annie', 41)","('Kassadin', 53)",0.5129776496034607
+yone,"('Vex', 42)","('Talon', 51)",0.5129776496034607
+yone,"('Irelia', 44)","('Aurelion Sol', 51)",0.5129776496034607
+yone,"('LeBlanc', 44)","('Mel', 50)",0.5129776496034607
+yone,"('Syndra', 45)","('Galio', 50)",0.5129776496034607
+zed,"(""Cho'Gath"", 43)","('Aurelion Sol', 54)",0.5304212168486739
+zed,"('Irelia', 44)","('Yone', 54)",0.5304212168486739
+zed,"('Anivia', 44)","('Mel', 53)",0.5304212168486739
+zed,"('Xerath', 45)","('Aurora', 53)",0.5304212168486739
+zed,"('Diana', 45)","('Talon', 52)",0.5304212168486739
+rumble,"('Riven', 38)","('Jax', 52)",0.5135918811163465
+rumble,"('Ornn', 43)","('Gragas', 50)",0.5135918811163465
+rumble,"('Irelia', 43)","('Garen', 50)",0.5135918811163465
+rumble,"('Darius', 44)","('Renekton', 50)",0.5135918811163465
+rumble,"('Mordekaiser', 45)","(""Cho'Gath"", 50)",0.5135918811163465
+kalista,"('Samira', 44)","('Draven', 52)",0.5213409902219462
+kalista,"('Jinx', 44)","('Twitch', 51)",0.5213409902219462
+kalista,"('Smolder', 45)","('Caitlyn', 51)",0.5213409902219462
+kalista,"('Zeri', 45)","('Ezreal', 50)",0.5213409902219462
+kalista,"('Vayne', 46)","(""Kai'Sa"", 50)",0.5213409902219462
+smolder,"(""Kog'Maw"", 45)","('Kalista', 55)",0.49662487945998074
+smolder,"('Corki', 46)","('Draven', 52)",0.49662487945998074
+smolder,"('Sivir', 46)","('Lucian', 50)",0.49662487945998074
+smolder,"('Twitch', 46)","('Ezreal', 50)",0.49662487945998074
+smolder,"('Jinx', 46)","(""Kai'Sa"", 50)",0.49662487945998074
+nidalee,"('Amumu', 37)","('Graves', 52)",0.5111993195350156
+nidalee,"('Zac', 39)","('Wukong', 51)",0.5111993195350156
+nidalee,"('Briar', 40)","('Xin Zhao', 50)",0.5111993195350156
+nidalee,"('Elise', 41)","(""Kha'Zix"", 50)",0.5111993195350156
+nidalee,"('Kindred', 41)","('Lillia', 50)",0.5111993195350156
+rengar,"('Darius', 39)","('Lillia', 57)",0.5146022155085599
+rengar,"('Fiddlesticks', 41)","('Ekko', 53)",0.5146022155085599
+rengar,"('Nocturne', 42)","('Nunu & Willump', 52)",0.5146022155085599
+rengar,"('Xin Zhao', 43)","('Evelynn', 52)",0.5146022155085599
+rengar,"('Vi', 44)","('Talon', 50)",0.5146022155085599
+mel,"('Kassadin', 41)","('Hwei', 51)",0.4631578947368421
+mel,"('Taliyah', 41)","('Twisted Fate', 51)",0.4631578947368421
+mel,"('Fizz', 41)","('Ahri', 50)",0.4631578947368421
+mel,"('Syndra', 43)","('Zoe', 50)",0.4631578947368421
+mel,"('Viktor', 43)","('Yone', 50)",0.4631578947368421
+ksante,"('Illaoi', 37)","('Rumble', 54)",0.48985849056603775
+ksante,"('Kayle', 39)","('Tahm Kench', 53)",0.48985849056603775
+ksante,"('Singed', 41)","('Nasus', 52)",0.48985849056603775
+ksante,"('Riven', 42)","('Jax', 51)",0.48985849056603775
+ksante,"('Garen', 43)","('Irelia', 51)",0.48985849056603775
+skarner,"('Elise', 42)","('Wukong', 50)",0.555956678700361
+skarner,"('Darius', 42)","('Lee Sin', 50)",0.555956678700361
+skarner,"('Lillia', 42)","(""Kha'Zix"", 49)",0.555956678700361
+skarner,"('Jarvan IV', 42)","('Shaco', 49)",0.555956678700361
+skarner,"('Kayn', 43)","('Ekko', 49)",0.555956678700361
