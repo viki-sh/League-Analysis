@@ -406,6 +406,7 @@ To establish a starting point, we trained a baseline Decision Tree model on the 
 Since our feature set included both quantitative and categorical data, we applied the following transformations:
 
 **OneHotEncoding**: Used for the side feature since it is nominal and does not have an intrinsic order.
+
 **Standardization**: Applied to our quantitative features (num_counters_picked and num_counters_banned) to bring them onto a similar scale, ensuring that no single feature dominates due to differences in magnitude.
 
 These were all implemented into a single sklearn pipeline, and we then trained a Random Forest classifier with the following hyperparameters:
